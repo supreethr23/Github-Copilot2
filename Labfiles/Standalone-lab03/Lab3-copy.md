@@ -22,20 +22,20 @@ In this lab, you will complete the following tasks:
 
    ![](media/Cs-1.png)
 
-1. Navigate to GitHub login page using the provided URL below:
+2. Navigate to GitHub login page using the provided URL below:
    ```
    https://github.com/login
    ```
    
-1. On the **Sign in to GitHub** tab, you will see the login screen. In that screen, enter the following **Username: <inject key="GitHub User Name" enableCopy="true"/>** Then click on **Sign in with your identity provider** **(2)**. 
+3. On the **Sign in to GitHub** tab, you will see the login screen. In that screen, enter the following **Username: <inject key="GitHub User Name" enableCopy="true"/>** Then click on **Sign in with your identity provider** **(2)**. 
    
    ![](media/githublogin.png)
           
-1. Next, On the **Single sign-on to CLoudLabs Organizations** select **Continue**.
+4. Next, On the **Single sign-on to CLoudLabs Organizations** select **Continue**.
 
-   ![](media/continue.png)
+   ![](media/continue(1).png)
 
-1. On the **Sign in** page, enter the following and select **Sign in**. You will be logged into the GitHub Admin page.
+5. On the **Sign in** page, enter the following and select **Sign in**. You will be logged into the GitHub Admin page.
 
     - **Email**: <inject key="AzureAdUserEmail"></inject>
     - **Password**: <inject key="AzureAdUserPassword"></inject>
@@ -44,8 +44,7 @@ In this lab, you will complete the following tasks:
    
         ![](media/githubpage.png)
 
-
-1. Click on the Copy link button, then open a new tab in the Edge browser inside the LabVM. Paste the link into the address bar and press Enter. Make sure you're logged into GitHub, as done in the previous steps.
+6. Click on the Copy link button, then open a new tab in the Edge browser inside the LabVM. Paste the link into the address bar and press Enter. Make sure you're logged into GitHub, as done in the previous steps.
 
    <!-- For start course, run in JavaScript:
    'https://github.com/new?' + new URLSearchParams({
@@ -61,8 +60,8 @@ In this lab, you will complete the following tasks:
    ```
    https://github.com/new?template_owner=skills&template_name=copilot-codespaces-vscode&owner=%40me&name=skills-copilot-codespaces-vscode&description=My+clone+repository&visibility=public
    ```
-  
-1. In the new tab, most fields will be pre-filled. Just update the **Owner** to **Cloudlabs-Enterprises** **(1)**, change the **Repository name** **(2)** as provided below to make it unique.
+ 
+7. In the new tab, most fields will be pre-filled. Just update the **Owner** to **Cloudlabs-Enterprises** **(1)**, change the **Repository name** **(2)** as provided below to make it unique.
 
     - Enter your Repository name as:
     
@@ -70,69 +69,68 @@ In this lab, you will complete the following tasks:
       skills-copilot-codespaces-vscode-<inject key="Deployment-id" enableCopy="false"/>
       ```
       
-      ![](media/forkrepo-01.png)
+      ![](media/forkrepo-01(1).png)
 
     - Then click **Create repository** **(3)** to continue
 
       ![](media/forkrepo-02.png)
 
-1. After your new repository is created, wait about 20 seconds and then refresh the page, you will be redirected to the main page of the **skills-copilot-codespaces-vscode-<inject key="Deployment-id" enableCopy="false"/>**  repository.
+8. After your new repository is created, wait about 20 seconds and then refresh the page, you will be redirected to the main page of the **skills-copilot-codespaces-vscode-<inject key="Deployment-id" enableCopy="false"/>**  repository.
 
    ![](media/skills-copilot-codespace-repo.png)
 
-1. Once the repository is created, click on your profile picture and then select **Your organizations**.
+9. Once the repository is created, click on your profile picture and then select **Your organizations**.
 
-   ![](media/cs3.png)
+      ![](media/cs3(1).png)
 
-1. In "Your organization", from the left navigation pane, select **Codespaces**.
+10. In "Your organization", from the left navigation pane, select **Codespaces**.
 
-   ![](media/cs4.png)
+      ![](media/cs4.png)
 
-1. Scroll down and make sure, **Visual Studio Code** is selected, under the **Editor preference** .
+11. Scroll down and make sure, **Visual Studio Code** is selected, under the **Editor preference** .
 
      ![](media/cs5.png)
 
-1. Navigate back to the home page of your repository, click on **creating a new file** under Quick setup.
+12. Navigate back to the home page of your repository, click on **creating a new file** under Quick setup.
 
-    ![](media/Exercise1-task1-1.png)
+    ![](media/Exercise1-task1-1(1).png)
 
-1. Type or paste the following in the empty text field prompt to name your file **(1)**.
+13. Type or paste the following in the empty text field prompt to name your file **(1)**.
 
-   ```
-   .devcontainer/devcontainer.json
-   ```
+      ```
+      .devcontainer/devcontainer.json
+      ```
 
-1. In the body of the new **.devcontainer/devcontainer.json** file, add the following content **(2)** and click on **Commit changes** **(3)**:
+14. In the body of the new **.devcontainer/devcontainer.json** file, add the following content **(2)** and click on **Commit changes** **(3)**:
 
-   ```
-   {
-       // Name this configuration
-       "name": "Codespace for Skills!",
-       "customizations": {
-           "vscode": {
-               "extensions": [
-                   "GitHub.copilot",
-                   "hashicorp.terraform"
-               ]
-           }
-       },
-      "features": {
-          "ghcr.io/devcontainers/features/terraform:1": {},
-          "ghcr.io/devcontainers/features/azure-cli:1": {}
+      ```
+      {
+         // Name this configuration
+         "name": "Codespace for Skills!",
+         "customizations": {
+            "vscode": {
+                  "extensions": [
+                     "GitHub.copilot",
+                     "hashicorp.terraform"
+                  ]
+            }
+         },
+         "features": {
+            "ghcr.io/devcontainers/features/terraform:1": {},
+            "ghcr.io/devcontainers/features/azure-cli:1": {}
+         }
       }
-   }
-   ```
+      ```
 
-   ![](media/Exercise1-task1-2.png)
+      ![](media/Exercise1-task1-2.png)
    
-1. Click the **Commit changes** button.
+15. Click the **Commit changes** button.
 
-   ![](media/Exercise1-task1-3.png)
+      ![](media/Exercise1-task1-3.png)
 
+16. Navigate back to your repository, click on the **Code** **(1)** tab located at the top left of the screen. Click the **Code** **(2)** button located in the middle of the page. If you don't see the "Create Codespace" button, it likely means your repository wasn't created under the **Cloudlabs-enterprises** organization. To fix this, either delete your current repository and recreate it under the specified organization, or fork the existing repository into **Cloudlabs-enterprises** Org.
 
-1. Navigate back to your repository, click on the **Code** **(1)** tab located at the top left of the screen. Click the **Code** **(2)** button located in the middle of the page. If you don't see the "Create Codespace" button, it likely means your repository wasn't created under the **Cloudlabs-enterprises** organization. To fix this, either delete your current repository and recreate it under the specified organization, or fork the existing repository into **Cloudlabs-enterprises** Org.
-
-   ![](media/dp3.png)  
+      ![](media/dp3.png)  
 
 1. Click the **Codespaces (1)** tab on the box that pops up and then click the **+ (2)** button.
    
