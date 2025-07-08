@@ -6,7 +6,7 @@ While GitHub Copilot offers recommendations for many languages and frameworks, i
 
 In this lab, you will have the opportunity to experiment with and apply JavaScript with the assistance of GitHub Copilot and GitHub Copilot Chat.
 
->**Disclaimer**: A whole function body will be automatically suggested by GitHub Copilot in gray text. Here's an example of what you are likely to see; however, the precise recommendation could vary.If you do not see code recommendation, try adding a space after the code. 
+>**Disclaimer**: A whole function body will be automatically suggested by GitHub Copilot in gray text. Here's an example of what you are likely to see; however, the precise recommendation could vary. If you do not see code recommendations, try adding a space after the code. 
 
 ## Lab objectives
 
@@ -22,7 +22,7 @@ In this lab, you will complete the following tasks:
 
    ![](media/Cs-1.png)
 
-2. Navigate to GitHub login page using the provided URL below:
+2. Navigate to the GitHub login page using the provided URL below:
    ```
    https://github.com/login
    ```
@@ -46,7 +46,7 @@ In this lab, you will complete the following tasks:
 
 6. Click on the Copy link button, then open a new tab in the Edge browser inside the LabVM. Paste the link into the address bar and press Enter. Make sure you're logged into GitHub, as done in the previous steps.
 
-   <!-- For start course, run in JavaScript:
+   <!-- For the start course, run in JavaScript:
    'https://github.com/new?' + new URLSearchParams({
      template_owner: 'skills',
      template_name: 'copilot-codespaces-vscode',
@@ -75,7 +75,7 @@ In this lab, you will complete the following tasks:
 
       ![](media/forkrepo-02.png)
 
-8. After your new repository is created, wait about 20 seconds and then refresh the page, you will be redirected to the main page of the **skills-copilot-codespaces-vscode-<inject key="Deployment-id" enableCopy="false"/>**  repository.
+8. After your new repository is created, wait about 20 seconds and then refresh the page; you will be redirected to the main page of the **skills-copilot-codespaces-vscode-<inject key="Deployment-id" enableCopy="false"/>**  repository.
 
       ![](media/skills-copilot-codespace-repo.png)
 
@@ -91,7 +91,7 @@ In this lab, you will complete the following tasks:
 
      ![](media/cs5.png)
 
-12. Navigate back to the home page of your repository, click on **creating a new file** under Quick setup.
+12. Navigate back to the home page of your repository, click on **Creating a new file** under Quick setup.
 
     ![](media/Exercise1-task1-1(1).png)
 
@@ -136,7 +136,7 @@ In this lab, you will complete the following tasks:
    
       ![](media/labgitupd.png)
 
-      >**Note**: If in case pop-up prompt doesn't appear in the browser to open Visual Studio code, manually launch Visual Studio code from the desktop and close it. Next, return to the browser, refresh the page and launch the codespace that was previously created.
+      >**Note**: If case pop-up prompt doesn't appear in the browser to open Visual Studio Code, manually launch Visual Studio Code from the desktop and close it. Next, return to the browser, refresh the page, and launch the codespace that was previously created.
 
 18. You will encounter a pop-up prompt. Click **Open** to proceed. Subsequently, another pop-up window will appear within Visual Studio Code (VS Code), where you should once again select **Install Extension and Open URI** to continue.
 
@@ -150,7 +150,7 @@ In this lab, you will complete the following tasks:
 
       ![](media/signingit.png)
 
-      >**Note:** If you do not get the sign-in prompt within Visual Studio Code, click on **Allow** in the pop-up that appears which will open a window in the browser, refresh the screen and click on **Open** in the pop-up that appears.
+      >**Note:** If you do not get the sign-in prompt within Visual Studio Code, click on **Allow** in the pop-up that appears, which will open a window in the browser, refresh the screen and click on **Open** in the pop-up that appears.
 
 20. Next, once you get the popup, click on **Allow**
 
@@ -158,9 +158,9 @@ In this lab, you will complete the following tasks:
 
       >**Note**: Wait about 2 minutes for the codespace to spin itself up.
 
-21. Click **Authorize Visual-Studio-Code** once the Authorize GitHub for VS code tab appears in the browser.
+21. Click **Authorize Visual-Studio-Code** once the Authorize GitHub for VS Code tab appears in the browser.
 
-22. Verify your codespace is running. Make sure the VS code looks as shown below:
+22. Verify your codespace is running. Make sure the VS Code looks as shown below:
 
       ![](media/skillscodespaces.png)
 
@@ -179,7 +179,7 @@ In this lab, you will complete the following tasks:
       
       ![](media/img1.png)
 
-      > - On the select user to authorize page in the edge browser, click on **Continue**
+      > - On the select user to authorize page in the Edge browser, click on **Continue**
 
       ![](media/img2.png)
 
@@ -201,9 +201,9 @@ In this lab, you will complete the following tasks:
       function calculateNumbers(var1, var2)
       ```
       
-      > **Note**: A whole function body will be automatically suggested by GitHub Copilot in gray text. Here's an example of what you are likely to see; however, the precise recommendation could vary. If you do not see code recommendation, try adding a space after the code. 
+      > **Note**: A whole function body will be automatically suggested by GitHub Copilot in gray text. Here's an example of what you are likely to see; however, the precise recommendation could vary. If you do not see a code recommendation, try adding a space after the code. 
       
-      > **Note**: If still the suggestions are not visible close the visual studio code and then re-open it again. 
+      > **Note**: If the suggestions are not visible, close Visual Studio Code and then reopen it. 
 
       ![](media/skills(1).png)
 
@@ -248,7 +248,7 @@ In this task, you will use the VS Code terminal to add the `skills.js` file to t
 
 #### Verify GitHub Copilot Chat extension in VS Code
 
-1. To Verify the GitHub Copilot Chat extension, the following steps are to be performed within Visual Studio Code:
+1. To verify the GitHub Copilot Chat extension, the following steps are to be performed within Visual Studio Code:
 
     - Click on the **Extensions (1)** icon in the activity bar present on the left side of the Visual Studio Code Window.
     - In the "Search Extensions in Marketplace" search box, type and search for the **GitHub Copilot Chat (2)** extension.
@@ -257,13 +257,13 @@ In this task, you will use the VS Code terminal to add the `skills.js` file to t
 
       ![](media/ghc-chat-extension.png)
 
-1. Once the installation is complete, at the top beside the search bar you will able to see the **icon (1)** for GitHub Copilot Chat as shown below. Also to open the chat click on **Open chat (2)**
+1. Once the installation is complete, at the top beside the search bar, you will be able to see the **icon (1)** for GitHub Copilot Chat as shown below. Also, to open the cha,t click on **Open chat (2)**
 
    ![](media/cs6(1).png)
 
 ### Task 3.1- Example: Set the stage with a high-level goal
 
-This is most helpful if you have a blank file or an empty codebase. In other words, it can be quite helpful to set the stage for the AI pair programmer if GitHub Copilot has no idea what you want to build or achieve. It helps to prime GitHub Copilot with a big-picture description of what you want it to generate—before you jump in with the details.
+This is most helpful if you have a blank file or an empty codebase. In other words, it can be quite helpful to set the stage for the AI pair programmer if GitHub Copilot has no idea what you want to build or achieve. It helps to prime GitHub Copilot with a big-picture description of what you want it to generate, before you jump in with the details.
 
 When prompting GitHub Copilot, think of the process as having a conversation with someone: How should I break down the problem so we can solve it together? How would I approach pair programming with this person?
 
@@ -275,22 +275,22 @@ When prompting GitHub Copilot, think of the process as having a conversation wit
 
    ![](media/E2-T3.1-S2.png)
 
-3. Now press `Ctrl + I` to open the GitHub Copilot Chat and paste the following **comments (1)** to create a basic markdown editor and click on **Send and Dispatch (Enter) (2)** button.
+3. Now press `Ctrl + I` to open the GitHub Copilot Chat and paste the following **comments (1)** to create a basic markdown editor and click on the **Send and Dispatch (Enter) (2)** button.
 
    ```
    Create a basic markdown editor in Next.js with the following features:
-   - Use react hooks
+   - Use React hooks
    - Create a state for markdown with the default text "type markdown here"
    - A text area where users can write markdown 
    - Show a live preview of the markdown text as I type
    - Support for basic markdown syntax like headers, bold, and italics 
-   - Use React markdown npm package 
+   - Use the React markdown npm package 
    - The markdown text and resulting HTML should be saved in the component's state and updated in real-time 
    ```
 
    ![](media/ex2-markdownupd.png)
 
-4. This will prompt GitHub Copilot to generate the following code in the image and produce a very simple, unstyled, but functional markdown editor. Now you can clear the contents of index.js file by clicking on **Accept**, then **Ctrl + A** and delete. Now you can proceed with the next tasks.
+4. This will prompt GitHub Copilot to generate the following code in the image and produce a very simple, unstyled, but functional markdown editor. Now you can clear the contents of the index.js file by clicking on **Accept**, then **Ctrl + A**, and delete. Now you can proceed with the next tasks.
 
    ![](media/skillsupd.png)
 
@@ -302,7 +302,7 @@ When prompting GitHub Copilot, think of the process as having a conversation wit
 After you've explained your primary objective to the AI pair programmer, explain the reasoning and procedures it must take to reach that objective. This will help GitHub Copilot gain a clearer understanding of your intended outcome when you break things down. For example, imagine you’re writing a recipe. Rather than writing a paragraph outlining the food you intend to make, you would break down the cooking procedure into distinct parts.
 So, instead of asking GitHub Copilot to generate a large amount of code at once, let it generate the code after each step.
 
-1. At the top beside search bar click on **Github copilot icon** and then open a new chat , enter the below step-by-step instructions for reversing a sentence.
+1. At the top, beside the search bar, click on the **Github copilot icon** and then open a new chat, enter the below step-by-step instructions for reversing a sentence.
 
     ```
       // take a sentence as input
@@ -311,7 +311,7 @@ So, instead of asking GitHub Copilot to generate a large amount of code at once,
       // for javascript
     ```
 
-2. The generated outcome would look similar to the below image.
+2. The generated outcome would look similar to the image below.
 
    ![](media/cs10.png)
 
@@ -343,7 +343,7 @@ const data = [
 
    ![](media/cs9.1.png)
 
-3. By contrast, type the below comments to provide an example of how to generate the desired output.
+3. By contrast, type the following comments to provide an example of how to generate the desired output.
 
     ```
       // Map through an array of arrays of objects
@@ -351,7 +351,7 @@ const data = [
       // Desired outcome: ['John', 'Jane', 'Bob']    
     ```
 
-4. Now, we have received our desired outcome. You can copy the desired outcome suggested by Copilot paste it in **index.js** and then **Ctrl + S** to save the file.
+4. Now, we have received our desired outcome. You can copy the desired outcome suggested by Copilot, paste it in **index.js**, and then **Ctrl + S** to save the file.
 
    ![](media/cs9.png)
 
@@ -371,7 +371,7 @@ const data = [
    git add index.js
    ```
 
-8. Next from the VS Code terminal, commit the changes to the repository:
+8. Next, from the VS Code terminal, commit the changes to the repository:
 
    ```
    git commit -m "Copilot commit"
