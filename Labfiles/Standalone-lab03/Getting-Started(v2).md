@@ -4,18 +4,18 @@
 
 ## Overview
 
-This lab introduces you to using GitHub Copilot within Codespaces in Visual Studio Code to enhance your coding workflow. GitHub Copilot is an AI-powered code completion tool that assists developers by suggesting whole lines or blocks of code as they type, making the coding process faster and more efficient. In this lab, you will learn how to set up and use GitHub Copilot in a Codespace, explore its various features, and understand how to leverage its capabilities to improve your productivity and code quality. By the end, you'll be familiar with integrating AI-driven code suggestions into your development environment seamlessly.
+This lab introduces you to using GitHub Copilot within Codespaces in Visual Studio Code to enhance your coding workflow. GitHub Copilot is an AI-powered code completion tool that assists developers by suggesting whole lines or blocks of code as they type, making the coding process faster and more efficient. In this lab, you will learn how to set up and use GitHub Copilot in a Codespace, explore its various features, and understand how to leverage its capabilities to improve your productivity and code quality. By the end of this lab, you'll be familiar with integrating AI-driven code suggestions into your development environment seamlessly.
 
 ## Objective
 
-**Code Suggestions with GitHub Copilot in Codespaces using VS Code**: Understand how to use GitHub Copilot within Visual Studio Code in GitHub Codespaces to receive AI-powered code suggestions that enhance coding efficiency and productivity, generate and complete code snippets, and learn to critically evaluate these suggestions to ensure they meet best practices for quality, readability, and security while effectively managing code changes with Git and collaborating through GitHub repositories.
+**Code Suggestions with GitHub Copilot in Codespaces using VS Code** lab helps you understand how to use GitHub Copilot within Visual Studio Code in GitHub Codespaces to receive AI-powered code suggestions that enhance coding efficiency and productivity, generate and complete code snippets, and learn to critically evaluate these suggestions to ensure they meet best practices for quality, readability, and security while effectively managing code changes with Git and collaborating through GitHub repositories.
 
 ## Pre-Requisites
 
-Participants should have: Basic knowledge and understanding of the following
+Participants should have basic knowledge and understanding of the following:
 
-- **GitHub Account**: A valid GitHub account. Ensure that you are logged into your GitHub account to access GitHub Codespaces and Copilot.
-- **Basic Knowledge of Git and GitHub**: Familiarity with Git version control system and basic GitHub concepts like repositories, branches, commits, and pull requests.
+- **GitHub Account** : A valid GitHub account. Ensure that you are logged into your GitHub account to access GitHub Codespaces and Copilot.
+- **Basic Knowledge of Git and GitHub** : Familiarity with Git version control system and basic GitHub concepts like repositories, branches, commits, and pull requests.
 
 ## Architecture
 
@@ -37,7 +37,7 @@ In this hands-on lab, the architecture flow includes several essential component
 
 ## Getting Started with the Lab
 
-Once the environment is provisioned, a virtual machine (JumpVM) and lab guide will be loaded in your browser. Use this virtual machine throughout the workshop to perform the lab. You can see the number on the bottom of the Lab guide to switch to different exercises of the lab guide.
+Once the environment is provisioned, a virtual machine (JumpVM) and lab guide will be loaded in your browser. Use this virtual machine throughout the workshop to perform the lab.
  
 ## Accessing Your Lab Environment
  
@@ -63,7 +63,7 @@ For convenience, you can open the lab guide in a separate window by selecting th
  
 ## Managing Your Virtual Machine
  
-Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
+Feel free to start, restart, or stop your virtual machine as needed from the **Resources** tab accordingly. Your experience is in your hands!
  
 ![Manage Your Virtual Machine](media/resa(1).png)
  
