@@ -282,7 +282,7 @@ When prompting GitHub Copilot, think of the process as having a conversation wit
 3. Now press `Ctrl + I` to open the GitHub Copilot Chat and paste the following **comments (1)** to create a basic markdown editor and click on the **Send and Dispatch (Enter) (2)** button.
 
    ```
-   Create a basic markdown editor in Next.js with the following features:
+   Create a basic markdown editor in index.js with the following features:
    - Use React hooks
    - Create a state for markdown with the default text "type markdown here"
    - A text area where users can write markdown 
