@@ -322,32 +322,32 @@ So, instead of asking GitHub Copilot to generate a large amount of code at once,
 
 ### Task 3.3- Example: Give GitHub Copilot an example or two
 
-Not only can people benefit from learning from examples, but so can your AI pair programmer. For example, in order to take the names out of the data array below and put them in a
+1. Not only can people benefit from learning from examples, but so can your AI pair programmer. For example, in order to take the names out of the data array below and put them in a
 new array:
 
-```
-const data = [
-[
-   { name: 'John', age: 25 },
-   { name: 'Jane', age: 30 }
-],
-[
-   { name: 'Bob', age: 40 }
-]
-];
-```
+   ```
+   const data = [
+   [
+      { name: 'John', age: 25 },
+      { name: 'Jane', age: 30 }
+   ],
+   [
+      { name: 'Bob', age: 40 }
+   ]
+   ];
+   ```
 
-1. Type the below comment in the chat to generate the output without showing an example to GitHub Copilot.
+2. Type the below comment in the chat to generate the output without showing an example to GitHub Copilot.
 
    ```
     // As an illustration, pull names out of the data array  
    ```
 
-2. It generated an incorrect usage of the map.
+3. It generated an incorrect usage of the map.
 
    ![](media/cs9.1.png)
 
-3. By contrast, type the following comments to provide an example of how to generate the desired output.
+4. By contrast, type the following comments to provide an example of how to generate the desired output.
 
     ```
       // Map through an array of arrays of objects
@@ -355,7 +355,7 @@ const data = [
       // Desired outcome: ['John', 'Jane', 'Bob']    
     ```
 
-4. Now, we have received our desired outcome. You can copy the desired outcome suggested by Copilot, paste it in **index.js**, and then **Ctrl + S** to save the file.
+5. Now, we have received our desired outcome. You can copy the desired outcome suggested by Copilot, paste it in **index.js**, and then **Ctrl + S** to save the file.
 
    ![](media/cs9.png)
 
@@ -369,19 +369,19 @@ const data = [
    git pull
    ```
 
-1. Run the below command to add the `index.js` file to the GitHub repository.
+8. Run the below command to add the `index.js` file to the GitHub repository.
    
    ```
    git add index.js
    ```
 
-8. Next, from the VS Code terminal, commit the changes to the repository:
+9. Next, from the VS Code terminal, commit the changes to the repository:
 
    ```
    git commit -m "Copilot commit"
    ```
 
-9. Finally, from the VS Code terminal, push the code to the repository:
+10. Finally, from the VS Code terminal, push the code to the repository:
 
    ```
    git push
