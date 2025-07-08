@@ -77,7 +77,7 @@ In this lab, you will complete the following tasks:
 
 8. After your new repository is created, wait about 20 seconds and then refresh the page, you will be redirected to the main page of the **skills-copilot-codespaces-vscode-<inject key="Deployment-id" enableCopy="false"/>**  repository.
 
-   ![](media/skills-copilot-codespace-repo.png)
+      ![](media/skills-copilot-codespace-repo.png)
 
 9. Once the repository is created, click on your profile picture and then select **Your organizations**.
 
