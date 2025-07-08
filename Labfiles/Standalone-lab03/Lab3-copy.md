@@ -85,7 +85,7 @@ In this task, you'll log into GitHub, create a new repository from a template, c
 
       ![](media/cs3(1).png)
 
-10. In "Your organization", from the left navigation pane, select **Codespaces**.
+10. In "Your organization", from the left navigation pane, select **Codespaces** under *Code, planning and automation*
 
       ![](media/cs4.png)
 
