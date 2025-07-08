@@ -18,7 +18,9 @@ In this lab, you will complete the following tasks:
 
 ### Task 1: Add a JavaScript file and start writing code
 
-1. In the LABVM desktop double-click on **Microsoft Edge**.
+In this task, you'll log into GitHub, create a new repository from a template, configure the development environment using a `.devcontainer` file, and launch a Codespace in Visual Studio Code. Once inside the Codespace, you'll confirm that GitHub Copilot is installed and working by writing a simple JavaScript function and letting Copilot suggest the function body.
+
+1. In the LABVM desktop, double-click on **Microsoft Edge**.
 
    ![](media/Cs-1.png)
 
