@@ -132,13 +132,13 @@ In this lab, you will complete the following tasks:
 
       ![](media/dp3.png)  
 
-1. Click the **Codespaces (1)** tab on the box that pops up and then click the **+ (2)** button.
+17. Click the **Codespaces (1)** tab on the box that pops up and then click the **+ (2)** button.
    
    ![](media/labgitupd.png)
 
    >**Note**: If in case pop-up prompt doesn't appear in the browser to open Visual Studio code, manually launch Visual Studio code from the desktop and close it. Next, return to the browser, refresh the page and launch the codespace that was previously created.
 
-1. You will encounter a pop-up prompt. Click **Open** to proceed. Subsequently, another pop-up window will appear within Visual Studio Code (VS Code), where you should once again select **Install Extension and Open URI** to continue.
+18. You will encounter a pop-up prompt. Click **Open** to proceed. Subsequently, another pop-up window will appear within Visual Studio Code (VS Code), where you should once again select **Install Extension and Open URI** to continue.
 
    ![](media/open.png)
 
@@ -146,25 +146,25 @@ In this lab, you will complete the following tasks:
 
    ![](media/installectension.png)
 
-1. At the bottom right corner, you will get a prompt to sign in to GitHub.
+19. At the bottom right corner, you will get a prompt to sign in to GitHub.
 
    ![](media/signingit.png)
 
    >**Note:** If you do not get the sign-in prompt within Visual Studio Code, click on **Allow** in the pop-up that appears which will open a window in the browser, refresh the screen and click on **Open** in the pop-up that appears.
 
-1. Next, once you get the popup, click on **Allow**
+20. Next, once you get the popup, click on **Allow**
 
    ![](media/allow1.png)
 
    >**Note**: Wait about 2 minutes for the codespace to spin itself up.
 
-1. Click **Authorize Visual-Studio-Code** once the Authorize GitHub for VS code tab appears in the browser.
+21. Click **Authorize Visual-Studio-Code** once the Authorize GitHub for VS code tab appears in the browser.
 
-1. Verify your codespace is running. Make sure the VS code looks as shown below:
+22. Verify your codespace is running. Make sure the VS code looks as shown below:
 
    ![](media/skillscodespaces.png)
 
-1. Click on **Extensions** **(1)** from the left menu, and the **GitHub Copilot** **(2)** extension should show up in the VS Code extension list. Click the Copilot extension and verify its installation as shown below:
+23. Click on **Extensions** **(1)** from the left menu, and the **GitHub Copilot** **(2)** extension should show up in the VS Code extension list. Click the Copilot extension and verify its installation as shown below:
 
    ![](media/verify-copilot.png)
 
@@ -172,6 +172,7 @@ In this lab, you will complete the following tasks:
     > - If prompted to **Sign In** click on **Sign In** to authorize with your github account. You will see one of the available options as shown in the screenshot below.
    
     ![](media/img0.png)
+
     ![](media/copilotlogin.png)
 
     > - Next, once you get the popup, click on **Allow.**
@@ -186,15 +187,15 @@ In this lab, you will complete the following tasks:
 
     ![](media/img3.png)   
     
-1. From the VS Code Explorer window, create a New File.
+24. From the VS Code Explorer window, create a New File.
 
    ![](media/savefile.png)
 
-2. Name the file `skills.js` and verify your new file looks as shown below:
+25. Name the file `skills.js` and verify your new file looks as shown below:
 
    ![](media/skills-js.png)
 
-3. In the `skills.js` file, type the following function header:
+26. In the `skills.js` file, type the following function header:
 
    ```
    function calculateNumbers(var1, var2)
@@ -208,7 +209,7 @@ In this lab, you will complete the following tasks:
 
    >**Note:** Suggestions may not be exactly as shown in the picture, but they could be similar.
 
-4. Press `Tab` to accept the suggestion and then press `Ctrl + S` to save the file.
+27. Press `Tab` to accept the suggestion and then press `Ctrl + S` to save the file.
 
    ![](media/skills(1).png)
 
@@ -245,7 +246,7 @@ In this task, you will use the VS Code terminal to add the `skills.js` file to t
 
 ### Task 3: Best practices to use GitHub Copilot
 
-### Verify GitHub Copilot Chat extension in VS Code
+#### Verify GitHub Copilot Chat extension in VS Code
 
 1. To Verify the GitHub Copilot Chat extension, the following steps are to be performed within Visual Studio Code:
     - Click on the **Extensions (1)** icon in the activity bar present on the left side of the Visual Studio Code Window.
@@ -257,9 +258,9 @@ In this task, you will use the VS Code terminal to add the `skills.js` file to t
 
 1. Once the installation is complete, at the top beside the search bar you will able to see the **icon (1)** for GitHub Copilot Chat as shown below. Also to open the chat click on **Open chat (2)**
 
-   ![](media/cs6.png)
+   ![](media/cs6(1).png)
 
-## Task 3.1- Example: Set the stage with a high-level goal
+### Task 3.1- Example: Set the stage with a high-level goal
 
 This is most helpful if you have a blank file or an empty codebase. In other words, it can be quite helpful to set the stage for the AI pair programmer if GitHub Copilot has no idea what you want to build or achieve. It helps to prime GitHub Copilot with a big-picture description of what you want it to generate—before you jump in with the details.
 
@@ -295,7 +296,7 @@ When prompting GitHub Copilot, think of the process as having a conversation wit
    >**Note:** Suggestions may not be exactly as shown in the picture, but they could be similar.
 
 
-## Task 3.2- Example: Aim to receive a short output from GitHub Copilot for a simple and specific ask
+### Task 3.2- Example: Aim to receive a short output from GitHub Copilot for a simple and specific ask
 
 After you've explained your primary objective to the AI pair programmer, explain the reasoning and procedures it must take to reach that objective. This will help GitHub Copilot gain a clearer understanding of your intended outcome when you break things down. For example, imagine you’re writing a recipe. Rather than writing a paragraph outlining the food you intend to make, you would break down the cooking procedure into distinct parts.
 So, instead of asking GitHub Copilot to generate a large amount of code at once, let it generate the code after each step.
@@ -314,7 +315,7 @@ So, instead of asking GitHub Copilot to generate a large amount of code at once,
    ![](media/cs10.png)
 
 
-## Task 3.3- Example: Give GitHub Copilot an example or two
+### Task 3.3- Example: Give GitHub Copilot an example or two
 
 Not only can people benefit from learning from examples, but so can your AI pair programmer. For example, in order to take the names out of the data array below and put them in a
 new array:
