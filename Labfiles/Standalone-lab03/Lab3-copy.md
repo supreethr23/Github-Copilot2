@@ -130,9 +130,11 @@ In this task, you'll log into GitHub, create a new repository from a template, c
 
       ![](media/Exercise1-task1-3.png)
 
-16. Navigate back to your repository, click on the **Code** **(1)** tab located at the top left of the screen. Click the **Code** **(2)** button located in the middle of the page. If you don't see the "Create Codespace" button, it likely means your repository wasn't created under the **Cloudlabs-enterprises** organization. To fix this, either delete your current repository and recreate it under the specified organization, or fork the existing repository into **Cloudlabs-enterprises** Org.
+16. Navigate back to your repository, click on the **Code** **(1)** tab located at the top left of the screen. Click the **Code** **(2)** button located in the middle of the page.
 
-      ![](media/dp3.png)  
+> **Note**: If you don't see the "Create Codespace" button, it likely means your repository wasn't created under the **Cloudlabs-enterprises** organization. To fix this, either delete your current repository and recreate it under the specified organization, or fork the existing repository into **Cloudlabs-enterprises** Org.
+
+![](media/dp3.png)  
 
 17. Click the **Codespaces (1)** tab on the box that pops up and then click the **+ (2)** button.
    
