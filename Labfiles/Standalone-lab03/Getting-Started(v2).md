@@ -27,7 +27,7 @@ In this hands-on lab, the architecture flow includes several essential component
 
 ## Explanation of Components
 
-1. **GitHub Codespaces**: This is a cloud-based development environment that provides a fully configured, containerized version of Visual Studio Code. Codespaces allow developers to work on their code from anywhere with consistent setups, reducing the "it works on my machine" problem. Codespaces also integrate seamlessly with GitHub repositories, making it easy to clone repositories, work on branches, and manage version control within the cloud environment.
+1. **GitHub Codespaces**: This is a cloud-based development environment that provides a fully configured, containerized version of Visual Studio Code. Codespaces allow developers to work on their code from anywhere with consistent setups, reducing the "it works on my machine" problem. Codespaces also integrates seamlessly with GitHub repositories, making it easy to clone repositories, work on branches, and manage version control within the cloud environment.
 
 2. **Visual Studio Code (VS Code)**: As the primary code editor in this lab, VS Code provides a feature-rich environment with built-in support for various programming languages, debugging, and extensions. It is used for writing, testing, and debugging JavaScript and other code, with the additional support of extensions like GitHub Copilot to enhance coding productivity. VS Code's intuitive interface and powerful tools, such as IntelliSense, integrated terminal, and source control management, are essential for a smooth development experience.
 
@@ -37,7 +37,7 @@ In this hands-on lab, the architecture flow includes several essential component
 
 ## Getting Started with the Lab
 
-Once the environment is provisioned, a virtual machine (JumpVM) and lab guide will get loaded in your browser. Use this virtual machine throughout the workshop to perform the lab. You can see the number on the bottom of the Lab guide to switch to different exercises of the lab guide.
+Once the environment is provisioned, a virtual machine (JumpVM) and lab guide will be loaded in your browser. Use this virtual machine throughout the workshop to perform the lab. You can see the number on the bottom of the Lab guide to switch to different exercises of the lab guide.
  
 ## Accessing Your Lab Environment
  
