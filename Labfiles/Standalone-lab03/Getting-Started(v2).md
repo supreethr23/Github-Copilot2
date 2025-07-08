@@ -37,7 +37,7 @@ In this hands-on lab, the architecture flow includes several essential component
 
 ## Getting Started with the Lab
 
-Once the environment is provisioned, a virtual machine (JumpVM) and lab guide will be loaded in your browser. Use this virtual machine throughout the workshop to perform the lab.
+Once the environment is provisioned, a virtual machine, labvm-<inject key="Deployment-id" enableCopy="false"/> and lab guide will be loaded in your browser. Use this virtual machine throughout the workshop to perform the lab.
  
 ## Accessing Your Lab Environment
  
