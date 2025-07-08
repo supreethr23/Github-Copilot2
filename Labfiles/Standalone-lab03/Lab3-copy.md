@@ -134,84 +134,84 @@ In this lab, you will complete the following tasks:
 
 17. Click the **Codespaces (1)** tab on the box that pops up and then click the **+ (2)** button.
    
-   ![](media/labgitupd.png)
+      ![](media/labgitupd.png)
 
-   >**Note**: If in case pop-up prompt doesn't appear in the browser to open Visual Studio code, manually launch Visual Studio code from the desktop and close it. Next, return to the browser, refresh the page and launch the codespace that was previously created.
+      >**Note**: If in case pop-up prompt doesn't appear in the browser to open Visual Studio code, manually launch Visual Studio code from the desktop and close it. Next, return to the browser, refresh the page and launch the codespace that was previously created.
 
 18. You will encounter a pop-up prompt. Click **Open** to proceed. Subsequently, another pop-up window will appear within Visual Studio Code (VS Code), where you should once again select **Install Extension and Open URI** to continue.
 
-   ![](media/open.png)
+      ![](media/open.png)
 
-   >**Note:** If you did not receive a pop-up prompt to open Visual Studio Code, **manually launch Visual Studio Code** from your VM and **refresh** the page. This should trigger the pop-up.
+      >**Note:** If you did not receive a pop-up prompt to open Visual Studio Code, **manually launch Visual Studio Code** from your VM and **refresh** the page. This should trigger the pop-up.
 
-   ![](media/installectension.png)
+      ![](media/installectension.png)
 
 19. At the bottom right corner, you will get a prompt to sign in to GitHub.
 
-   ![](media/signingit.png)
+      ![](media/signingit.png)
 
-   >**Note:** If you do not get the sign-in prompt within Visual Studio Code, click on **Allow** in the pop-up that appears which will open a window in the browser, refresh the screen and click on **Open** in the pop-up that appears.
+      >**Note:** If you do not get the sign-in prompt within Visual Studio Code, click on **Allow** in the pop-up that appears which will open a window in the browser, refresh the screen and click on **Open** in the pop-up that appears.
 
 20. Next, once you get the popup, click on **Allow**
 
-   ![](media/allow1.png)
+      ![](media/allow1.png)
 
-   >**Note**: Wait about 2 minutes for the codespace to spin itself up.
+      >**Note**: Wait about 2 minutes for the codespace to spin itself up.
 
 21. Click **Authorize Visual-Studio-Code** once the Authorize GitHub for VS code tab appears in the browser.
 
 22. Verify your codespace is running. Make sure the VS code looks as shown below:
 
-   ![](media/skillscodespaces.png)
+      ![](media/skillscodespaces.png)
 
 23. Click on **Extensions** **(1)** from the left menu, and the **GitHub Copilot** **(2)** extension should show up in the VS Code extension list. Click the Copilot extension and verify its installation as shown below:
 
-   ![](media/verify-copilot.png)
+      ![](media/verify-copilot.png)
 
-   >**Note**: If the GitHub Copilot extension is not installed, click on Install.
-    > - If prompted to **Sign In** click on **Sign In** to authorize with your github account. You will see one of the available options as shown in the screenshot below.
+      >**Note**: If the GitHub Copilot extension is not installed, click on Install.
+      > - If prompted to **Sign In** click on **Sign In** to authorize with your github account. You will see one of the available options as shown in the screenshot below.
    
-    ![](media/img0.png)
+      ![](media/img0.png)
 
-    ![](media/copilotlogin.png)
+      ![](media/copilotlogin.png)
 
-    > - Next, once you get the popup, click on **Allow.**
-    
-    ![](media/img1.png)
+      > - Next, once you get the popup, click on **Allow.**
+      
+      ![](media/img1.png)
 
-    > - On the select user to authorize page in the edge browser, click on **Continue**
+      > - On the select user to authorize page in the edge browser, click on **Continue**
 
-    ![](media/img2.png)
+      ![](media/img2.png)
 
-    > - You will encounter a pop-up prompt. Click **Open** to proceed.
+      > - You will encounter a pop-up prompt. Click **Open** to proceed.
 
-    ![](media/img3.png)   
+      ![](media/img3.png)   
     
 24. From the VS Code Explorer window, create a New File.
 
-   ![](media/savefile.png)
+      ![](media/savefile.png)
 
 25. Name the file `skills.js` and verify your new file looks as shown below:
 
-   ![](media/skills-js.png)
+      ![](media/skills-js.png)
 
 26. In the `skills.js` file, type the following function header:
 
-   ```
-   function calculateNumbers(var1, var2)
-   ```
-   
-   > **Note**: A whole function body will be automatically suggested by GitHub Copilot in gray text. Here's an example of what you are likely to see; however, the precise recommendation could vary. If you do not see code recommendation, try adding a space after the code. 
-   
-   > **Note**: If still the suggestions are not visible close the visual studio code and then re-open it again. 
+      ```
+      function calculateNumbers(var1, var2)
+      ```
+      
+      > **Note**: A whole function body will be automatically suggested by GitHub Copilot in gray text. Here's an example of what you are likely to see; however, the precise recommendation could vary. If you do not see code recommendation, try adding a space after the code. 
+      
+      > **Note**: If still the suggestions are not visible close the visual studio code and then re-open it again. 
 
-   ![](media/skills(1).png)
+      ![](media/skills(1).png)
 
-   >**Note:** Suggestions may not be exactly as shown in the picture, but they could be similar.
+      >**Note:** Suggestions may not be exactly as shown in the picture, but they could be similar.
 
 27. Press `Tab` to accept the suggestion and then press `Ctrl + S` to save the file.
 
-   ![](media/skills(1).png)
+      ![](media/skills(1).png)
 
 ### Task 2: Push code to your repository from the codespace
 
@@ -249,12 +249,13 @@ In this task, you will use the VS Code terminal to add the `skills.js` file to t
 #### Verify GitHub Copilot Chat extension in VS Code
 
 1. To Verify the GitHub Copilot Chat extension, the following steps are to be performed within Visual Studio Code:
+
     - Click on the **Extensions (1)** icon in the activity bar present on the left side of the Visual Studio Code Window.
     - In the "Search Extensions in Marketplace" search box, type and search for the **GitHub Copilot Chat (2)** extension.
     - Select **GitHub Copilot Chat (3)** from the list of results that show up, and verify that **GitHub Copilot Chat** has been installed.
     - If not, click on the **Install (4)** button.
 
-   ![](media/ghc-chat-extension.png)
+      ![](media/ghc-chat-extension.png)
 
 1. Once the installation is complete, at the top beside the search bar you will able to see the **icon (1)** for GitHub Copilot Chat as shown below. Also to open the chat click on **Open chat (2)**
 
