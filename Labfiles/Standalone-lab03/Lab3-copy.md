@@ -6,7 +6,7 @@ While GitHub Copilot offers recommendations for many languages and frameworks, i
 
 In this lab, you will have the opportunity to experiment with and apply JavaScript with the assistance of GitHub Copilot and GitHub Copilot Chat.
 
->**Disclaimer**: A whole function body will be automatically suggested by GitHub Copilot in gray text. Here's an example of what you are likely to see; however, the precise recommendation could vary.If you do not see code recommendation, try adding a space after the code. 
+>**Disclaimer**: A whole function body will be automatically suggested by GitHub Copilot in gray text. Here's an example of what you are likely to see; however, the precise recommendation could vary. If you do not see code recommendations, try adding a space after the code. 
 
 ## Lab objectives
 
@@ -18,24 +18,26 @@ In this lab, you will complete the following tasks:
 
 ### Task 1: Add a JavaScript file and start writing code
 
-1. In the LABVM desktop double-click on **Microsoft Edge**.
+In this task, you'll log into GitHub, create a new repository from a template, configure the development environment using a `.devcontainer` file, and launch a Codespace in Visual Studio Code. Once inside the Codespace, you'll confirm that GitHub Copilot is installed and working by writing a simple JavaScript function and letting Copilot suggest the function body.
+
+1. In the LABVM desktop, double-click on **Microsoft Edge**.
 
    ![](media/Cs-1.png)
 
-1. Navigate to GitHub login page using the provided URL below:
+2. Navigate to the GitHub login page using the provided URL below:
    ```
    https://github.com/login
    ```
    
-1. On the **Sign in to GitHub** tab, you will see the login screen. In that screen, enter the following **Username: <inject key="GitHub User Name" enableCopy="true"/>** Then click on **Sign in with your identity provider** **(2)**. 
+3. On the **Sign in to GitHub** tab, you will see the login screen. In that screen, enter the following **Username: <inject key="GitHub User Name" enableCopy="true"/>** Then click on **Sign in with your identity provider** **(2)**. 
    
    ![](media/githublogin.png)
           
-1. Next, On the **Single sign-on to CLoudLabs Organizations** select **Continue**.
+4. Next, On the **Single sign-on to CLoudLabs Organizations** select **Continue**.
 
-   ![](media/continue.png)
+   ![](media/continue(1).png)
 
-1. On the **Sign in** page, enter the following and select **Sign in**. You will be logged into the GitHub Admin page.
+5. On the **Sign in** page, enter the following and select **Sign in**. You will be logged into the GitHub Admin page.
 
     - **Email**: <inject key="AzureAdUserEmail"></inject>
     - **Password**: <inject key="AzureAdUserPassword"></inject>
@@ -44,10 +46,9 @@ In this lab, you will complete the following tasks:
    
         ![](media/githubpage.png)
 
+6. Click on the Copy link button, then open a new tab in the Edge browser inside the LabVM. Paste the link into the address bar and press Enter. Make sure you're logged into GitHub, as done in the previous steps.
 
-1. Click on the Copy link button, then open a new tab in the Edge browser inside the LabVM. Paste the link into the address bar and press Enter. Make sure you're logged into GitHub, as done in the previous steps.
-
-   <!-- For start course, run in JavaScript:
+   <!-- For the start course, run in JavaScript:
    'https://github.com/new?' + new URLSearchParams({
      template_owner: 'skills',
      template_name: 'copilot-codespaces-vscode',
@@ -61,8 +62,8 @@ In this lab, you will complete the following tasks:
    ```
    https://github.com/new?template_owner=skills&template_name=copilot-codespaces-vscode&owner=%40me&name=skills-copilot-codespaces-vscode&description=My+clone+repository&visibility=public
    ```
-  
-1. In the new tab, most fields will be pre-filled. Just update the **Owner** to **Cloudlabs-Enterprises** **(1)**, change the **Repository name** **(2)** as provided below to make it unique.
+ 
+7. In the new tab, most fields will be pre-filled. Just update the **Owner** to **Cloudlabs-Enterprises** **(1)**, change the **Repository name** **(2)** as provided below to make it unique.
 
     - Enter your Repository name as:
     
@@ -70,149 +71,149 @@ In this lab, you will complete the following tasks:
       skills-copilot-codespaces-vscode-<inject key="Deployment-id" enableCopy="false"/>
       ```
       
-      ![](media/forkrepo-01.png)
+      ![](media/forkrepo-01(1).png)
 
     - Then click **Create repository** **(3)** to continue
 
       ![](media/forkrepo-02.png)
 
-1. After your new repository is created, wait about 20 seconds and then refresh the page, you will be redirected to the main page of the **skills-copilot-codespaces-vscode-<inject key="Deployment-id" enableCopy="false"/>**  repository.
+8. After your new repository is created, wait about 20 seconds and then refresh the page; you will be redirected to the main page of the **skills-copilot-codespaces-vscode-<inject key="Deployment-id" enableCopy="false"/>**  repository.
 
-   ![](media/skills-copilot-codespace-repo.png)
+      ![](media/skills-copilot-codespace-repo.png)
 
-1. Once the repository is created, click on your profile picture and then select **Your organizations**.
+9. Once the repository is created, click on your profile picture and then select **Your organizations**.
 
-   ![](media/cs3.png)
+      ![](media/cs3(1).png)
 
-1. In "Your organization", from the left navigation pane, select **Codespaces**.
+10. In "Your organization", from the left navigation pane, select **Codespaces**.
 
-   ![](media/cs4.png)
+      ![](media/cs4.png)
 
-1. Scroll down and make sure, **Visual Studio Code** is selected, under the **Editor preference** .
+11. Scroll down and make sure, **Visual Studio Code** is selected, under the **Editor preference** .
 
      ![](media/cs5.png)
 
-1. Navigate back to the home page of your repository, click on **creating a new file** under Quick setup.
+12. Navigate back to the home page of your repository, click on **Creating a new file** under Quick setup.
 
-    ![](media/Exercise1-task1-1.png)
+    ![](media/Exercise1-task1-1(1).png)
 
-1. Type or paste the following in the empty text field prompt to name your file **(1)**.
+13. Type or paste the following in the empty text field prompt to name your file **(1)**.
 
-   ```
-   .devcontainer/devcontainer.json
-   ```
+      ```
+      .devcontainer/devcontainer.json
+      ```
 
-1. In the body of the new **.devcontainer/devcontainer.json** file, add the following content **(2)** and click on **Commit changes** **(3)**:
+14. In the body of the new **.devcontainer/devcontainer.json** file, add the following content **(2)** and click on **Commit changes** **(3)**:
 
-   ```
-   {
-       // Name this configuration
-       "name": "Codespace for Skills!",
-       "customizations": {
-           "vscode": {
-               "extensions": [
-                   "GitHub.copilot",
-                   "hashicorp.terraform"
-               ]
-           }
-       },
-      "features": {
-          "ghcr.io/devcontainers/features/terraform:1": {},
-          "ghcr.io/devcontainers/features/azure-cli:1": {}
+      ```
+      {
+         // Name this configuration
+         "name": "Codespace for Skills!",
+         "customizations": {
+            "vscode": {
+                  "extensions": [
+                     "GitHub.copilot",
+                     "hashicorp.terraform"
+                  ]
+            }
+         },
+         "features": {
+            "ghcr.io/devcontainers/features/terraform:1": {},
+            "ghcr.io/devcontainers/features/azure-cli:1": {}
+         }
       }
-   }
-   ```
+      ```
 
-   ![](media/Exercise1-task1-2.png)
+      ![](media/Exercise1-task1-2.png)
    
-1. Click the **Commit changes** button.
+15. Click the **Commit changes** button.
 
-   ![](media/Exercise1-task1-3.png)
+      ![](media/Exercise1-task1-3.png)
 
+16. Navigate back to your repository, click on the **Code** **(1)** tab located at the top left of the screen. Click the **Code** **(2)** button located in the middle of the page. If you don't see the "Create Codespace" button, it likely means your repository wasn't created under the **Cloudlabs-enterprises** organization. To fix this, either delete your current repository and recreate it under the specified organization, or fork the existing repository into **Cloudlabs-enterprises** Org.
 
-1. Navigate back to your repository, click on the **Code** **(1)** tab located at the top left of the screen. Click the **Code** **(2)** button located in the middle of the page. If you don't see the "Create Codespace" button, it likely means your repository wasn't created under the **Cloudlabs-enterprises** organization. To fix this, either delete your current repository and recreate it under the specified organization, or fork the existing repository into **Cloudlabs-enterprises** Org.
+      ![](media/dp3.png)  
 
-   ![](media/dp3.png)  
-
-1. Click the **Codespaces (1)** tab on the box that pops up and then click the **+ (2)** button.
+17. Click the **Codespaces (1)** tab on the box that pops up and then click the **+ (2)** button.
    
-   ![](media/labgitupd.png)
+      ![](media/labgitupd.png)
 
-   >**Note**: If in case pop-up prompt doesn't appear in the browser to open Visual Studio code, manually launch Visual Studio code from the desktop and close it. Next, return to the browser, refresh the page and launch the codespace that was previously created.
+      >**Note**: If case pop-up prompt doesn't appear in the browser to open Visual Studio Code, manually launch Visual Studio Code from the desktop and close it. Next, return to the browser, refresh the page, and launch the codespace that was previously created.
 
-1. You will encounter a pop-up prompt. Click **Open** to proceed. Subsequently, another pop-up window will appear within Visual Studio Code (VS Code), where you should once again select **Install Extension and Open URI** to continue.
+18. You will encounter a pop-up prompt. Click **Open** to proceed. Subsequently, another pop-up window will appear within Visual Studio Code (VS Code), where you should once again select **Install Extension and Open URI** to continue.
 
-   ![](media/open.png)
+      ![](media/open.png)
 
-   >**Note:** If you did not receive a pop-up prompt to open Visual Studio Code, **manually launch Visual Studio Code** from your VM and **refresh** the page. This should trigger the pop-up.
+      >**Note:** If you did not receive a pop-up prompt to open Visual Studio Code, **manually launch Visual Studio Code** from your VM and **refresh** the page. This should trigger the pop-up.
 
-   ![](media/installectension.png)
+      ![](media/installectension.png)
 
-1. At the bottom right corner, you will get a prompt to sign in to GitHub.
+19. At the bottom right corner, you will get a prompt to sign in to GitHub.
 
-   ![](media/signingit.png)
+      ![](media/signingit.png)
 
-   >**Note:** If you do not get the sign-in prompt within Visual Studio Code, click on **Allow** in the pop-up that appears which will open a window in the browser, refresh the screen and click on **Open** in the pop-up that appears.
+      >**Note:** If you do not get the sign-in prompt within Visual Studio Code, click on **Allow** in the pop-up that appears, which will open a window in the browser, refresh the screen and click on **Open** in the pop-up that appears.
 
-1. Next, once you get the popup, click on **Allow**
+20. Next, once you get the popup, click on **Allow**
 
-   ![](media/allow1.png)
+      ![](media/allow1.png)
 
-   >**Note**: Wait about 2 minutes for the codespace to spin itself up.
+      >**Note**: Wait about 2 minutes for the codespace to spin itself up.
 
-1. Click **Authorize Visual-Studio-Code** once the Authorize GitHub for VS code tab appears in the browser.
+21. Click **Authorize Visual-Studio-Code** once the Authorize GitHub for VS Code tab appears in the browser.
 
-1. Verify your codespace is running. Make sure the VS code looks as shown below:
+22. Verify your codespace is running. Make sure the VS Code looks as shown below:
 
-   ![](media/skillscodespaces.png)
+      ![](media/skillscodespaces.png)
 
-1. Click on **Extensions** **(1)** from the left menu, and the **GitHub Copilot** **(2)** extension should show up in the VS Code extension list. Click the Copilot extension and verify its installation as shown below:
+23. Click on **Extensions** **(1)** from the left menu, and the **GitHub Copilot** **(2)** extension should show up in the VS Code extension list. Click the Copilot extension and verify its installation as shown below:
 
-   ![](media/verify-copilot.png)
+      ![](media/verify-copilot.png)
 
-   >**Note**: If the GitHub Copilot extension is not installed, click on Install.
-    > - If prompted to **Sign In** click on **Sign In** to authorize with your github account. You will see one of the available options as shown in the screenshot below.
+      >**Note**: If the GitHub Copilot extension is not installed, click on Install.
+      > - If prompted to **Sign In** click on **Sign In** to authorize with your github account. You will see one of the available options as shown in the screenshot below.
    
-    ![](media/img0.png)
-    ![](media/copilotlogin.png)
+      ![](media/img0.png)
 
-    > - Next, once you get the popup, click on **Allow.**
+      ![](media/copilotlogin.png)
+
+      > - Next, once you get the popup, click on **Allow.**
+      
+      ![](media/img1.png)
+
+      > - On the select user to authorize page in the Edge browser, click on **Continue**
+
+      ![](media/img2.png)
+
+      > - You will encounter a pop-up prompt. Click **Open** to proceed.
+
+      ![](media/img3.png)   
     
-    ![](media/img1.png)
+24. From the VS Code Explorer window, create a New File.
 
-    > - On the select user to authorize page in the edge browser, click on **Continue**
+      ![](media/savefile.png)
 
-    ![](media/img2.png)
+25. Name the file `skills.js` and verify your new file looks as shown below:
 
-    > - You will encounter a pop-up prompt. Click **Open** to proceed.
+      ![](media/skills-js.png)
 
-    ![](media/img3.png)   
-    
-1. From the VS Code Explorer window, create a New File.
+26. In the `skills.js` file, type the following function header:
 
-   ![](media/savefile.png)
+      ```
+      function calculateNumbers(var1, var2)
+      ```
+      
+      > **Note**: A whole function body will be automatically suggested by GitHub Copilot in gray text. Here's an example of what you are likely to see; however, the precise recommendation could vary. If you do not see a code recommendation, try adding a space after the code. 
+      
+      > **Note**: If the suggestions are not visible, close Visual Studio Code and then reopen it. 
 
-2. Name the file `skills.js` and verify your new file looks as shown below:
+      ![](media/skills(1).png)
 
-   ![](media/skills-js.png)
+      >**Note:** Suggestions may not be exactly as shown in the picture, but they could be similar.
 
-3. In the `skills.js` file, type the following function header:
+27. Press `Tab` to accept the suggestion and then press `Ctrl + S` to save the file.
 
-   ```
-   function calculateNumbers(var1, var2)
-   ```
-   
-   > **Note**: A whole function body will be automatically suggested by GitHub Copilot in gray text. Here's an example of what you are likely to see; however, the precise recommendation could vary. If you do not see code recommendation, try adding a space after the code. 
-   
-   > **Note**: If still the suggestions are not visible close the visual studio code and then re-open it again. 
-
-   ![](media/skills(1).png)
-
-   >**Note:** Suggestions may not be exactly as shown in the picture, but they could be similar.
-
-4. Press `Tab` to accept the suggestion and then press `Ctrl + S` to save the file.
-
-   ![](media/skills(1).png)
+      ![](media/skills(1).png)
 
 ### Task 2: Push code to your repository from the codespace
 
@@ -247,23 +248,24 @@ In this task, you will use the VS Code terminal to add the `skills.js` file to t
 
 ### Task 3: Best practices to use GitHub Copilot
 
-### Verify GitHub Copilot Chat extension in VS Code
+#### Verify GitHub Copilot Chat extension in VS Code
 
-1. To Verify the GitHub Copilot Chat extension, the following steps are to be performed within Visual Studio Code:
+1. To verify the GitHub Copilot Chat extension, the following steps are to be performed within Visual Studio Code:
+
     - Click on the **Extensions (1)** icon in the activity bar present on the left side of the Visual Studio Code Window.
     - In the "Search Extensions in Marketplace" search box, type and search for the **GitHub Copilot Chat (2)** extension.
     - Select **GitHub Copilot Chat (3)** from the list of results that show up, and verify that **GitHub Copilot Chat** has been installed.
     - If not, click on the **Install (4)** button.
 
-   ![](media/ghc-chat-extension.png)
+      ![](media/ghc-chat-extension.png)
 
-1. Once the installation is complete, at the top beside the search bar you will able to see the **icon (1)** for GitHub Copilot Chat as shown below. Also to open the chat click on **Open chat (2)**
+1. Once the installation is complete, at the top beside the search bar, you will be able to see the **icon (1)** for GitHub Copilot Chat as shown below. Also, to open the cha,t click on **Open chat (2)**
 
-   ![](media/cs6.png)
+   ![](media/cs6(1).png)
 
-## Task 3.1- Example: Set the stage with a high-level goal
+### Task 3.1- Example: Set the stage with a high-level goal
 
-This is most helpful if you have a blank file or an empty codebase. In other words, it can be quite helpful to set the stage for the AI pair programmer if GitHub Copilot has no idea what you want to build or achieve. It helps to prime GitHub Copilot with a big-picture description of what you want it to generate—before you jump in with the details.
+This is most helpful if you have a blank file or an empty codebase. In other words, it can be quite helpful to set the stage for the AI pair programmer if GitHub Copilot has no idea what you want to build or achieve. It helps to prime GitHub Copilot with a big-picture description of what you want it to generate, before you jump in with the details.
 
 When prompting GitHub Copilot, think of the process as having a conversation with someone: How should I break down the problem so we can solve it together? How would I approach pair programming with this person?
 
@@ -275,34 +277,34 @@ When prompting GitHub Copilot, think of the process as having a conversation wit
 
    ![](media/E2-T3.1-S2.png)
 
-3. Now press `Ctrl + I` to open the GitHub Copilot Chat and paste the following **comments (1)** to create a basic markdown editor and click on **Send and Dispatch (Enter) (2)** button.
+3. Now press `Ctrl + I` to open the GitHub Copilot Chat and paste the following **comments (1)** to create a basic markdown editor and click on the **Send and Dispatch (Enter) (2)** button.
 
    ```
    Create a basic markdown editor in Next.js with the following features:
-   - Use react hooks
+   - Use React hooks
    - Create a state for markdown with the default text "type markdown here"
    - A text area where users can write markdown 
    - Show a live preview of the markdown text as I type
    - Support for basic markdown syntax like headers, bold, and italics 
-   - Use React markdown npm package 
+   - Use the React markdown npm package 
    - The markdown text and resulting HTML should be saved in the component's state and updated in real-time 
    ```
 
    ![](media/ex2-markdownupd.png)
 
-4. This will prompt GitHub Copilot to generate the following code in the image and produce a very simple, unstyled, but functional markdown editor. Now you can clear the contents of index.js file by clicking on **Accept**, then **Ctrl + A** and delete. Now you can proceed with the next tasks.
+4. This will prompt GitHub Copilot to generate the following code in the image and produce a very simple, unstyled, but functional markdown editor. Now you can clear the contents of the index.js file by clicking on **Accept**, then **Ctrl + A**, and delete. Now you can proceed with the next tasks.
 
    ![](media/skillsupd.png)
 
    >**Note:** Suggestions may not be exactly as shown in the picture, but they could be similar.
 
 
-## Task 3.2- Example: Aim to receive a short output from GitHub Copilot for a simple and specific ask
+### Task 3.2- Example: Aim to receive a short output from GitHub Copilot for a simple and specific ask
 
 After you've explained your primary objective to the AI pair programmer, explain the reasoning and procedures it must take to reach that objective. This will help GitHub Copilot gain a clearer understanding of your intended outcome when you break things down. For example, imagine you’re writing a recipe. Rather than writing a paragraph outlining the food you intend to make, you would break down the cooking procedure into distinct parts.
 So, instead of asking GitHub Copilot to generate a large amount of code at once, let it generate the code after each step.
 
-1. At the top beside search bar click on **Github copilot icon** and then open a new chat , enter the below step-by-step instructions for reversing a sentence.
+1. At the top, beside the search bar, click on the **Github copilot icon** and then open a new chat, enter the below step-by-step instructions for reversing a sentence.
 
     ```
       // take a sentence as input
@@ -311,12 +313,12 @@ So, instead of asking GitHub Copilot to generate a large amount of code at once,
       // for javascript
     ```
 
-2. The generated outcome would look similar to the below image.
+2. The generated outcome would look similar to the image below.
 
    ![](media/cs10.png)
 
 
-## Task 3.3- Example: Give GitHub Copilot an example or two
+### Task 3.3- Example: Give GitHub Copilot an example or two
 
 Not only can people benefit from learning from examples, but so can your AI pair programmer. For example, in order to take the names out of the data array below and put them in a
 new array:
@@ -343,7 +345,7 @@ const data = [
 
    ![](media/cs9.1.png)
 
-3. By contrast, type the below comments to provide an example of how to generate the desired output.
+3. By contrast, type the following comments to provide an example of how to generate the desired output.
 
     ```
       // Map through an array of arrays of objects
@@ -351,7 +353,7 @@ const data = [
       // Desired outcome: ['John', 'Jane', 'Bob']    
     ```
 
-4. Now, we have received our desired outcome. You can copy the desired outcome suggested by Copilot paste it in **index.js** and then **Ctrl + S** to save the file.
+4. Now, we have received our desired outcome. You can copy the desired outcome suggested by Copilot, paste it in **index.js**, and then **Ctrl + S** to save the file.
 
    ![](media/cs9.png)
 
@@ -371,7 +373,7 @@ const data = [
    git add index.js
    ```
 
-8. Next from the VS Code terminal, commit the changes to the repository:
+8. Next, from the VS Code terminal, commit the changes to the repository:
 
    ```
    git commit -m "Copilot commit"
@@ -398,3 +400,5 @@ In this lab, you have completed the following:
 - Added a JavaScript file and wrote the code.
 - Pushed the code to your repository from the codespace.
 - Learnt the best practices to use GitHub Copilot.
+
+### You have successfully completed the Hands-on Lab.
