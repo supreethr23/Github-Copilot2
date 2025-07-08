@@ -398,3 +398,5 @@ In this lab, you have completed the following:
 - Added a JavaScript file and wrote the code.
 - Pushed the code to your repository from the codespace.
 - Learnt the best practices to use GitHub Copilot.
+
+### You have successfully completed the Hands-on Lab.
