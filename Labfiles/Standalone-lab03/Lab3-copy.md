@@ -132,9 +132,9 @@ In this task, you'll log into GitHub, create a new repository from a template, c
 
 16. Navigate back to your repository, click on the **Code** **(1)** tab located at the top left of the screen. Click the **Code** **(2)** button located in the middle of the page.
 
-> **Note**: If you don't see the "Create Codespace" button, it likely means your repository wasn't created under the **Cloudlabs-enterprises** organization. To fix this, either delete your current repository and recreate it under the specified organization, or fork the existing repository into **Cloudlabs-enterprises** Org.
+      > **Note**: If you don't see the "Create Codespace" button, it likely means your repository wasn't created under the **Cloudlabs-enterprises** organization. To fix this, either delete your current repository and recreate it under the specified organization, or fork the existing repository into **Cloudlabs-enterprises** Org.
 
-![](media/dp3.png)  
+      ![](media/dp3.png)  
 
 17. Click the **Codespaces (1)** tab on the box that pops up and then click the **+ (2)** button.
    
@@ -250,9 +250,9 @@ In this task, you will use the VS Code terminal to add the `skills.js` file to t
 
 ### Task 3: Best practices to use GitHub Copilot
 
-#### Verify GitHub Copilot Chat extension in VS Code
+>**Note :** Verify GitHub Copilot Chat extension in VS Code.
 
-1. To verify the GitHub Copilot Chat extension, the following steps are to be performed within Visual Studio Code:
+1. To confirm that the GitHub Copilot Chat extension is installed, follow the steps below in Visual Studio Code:
 
     - Click on the **Extensions (1)** icon in the activity bar present on the left side of the Visual Studio Code Window.
     - In the "Search Extensions in Marketplace" search box, type and search for the **GitHub Copilot Chat (2)** extension.
@@ -271,7 +271,7 @@ This is most helpful if you have a blank file or an empty codebase. In other wor
 
 When prompting GitHub Copilot, think of the process as having a conversation with someone: How should I break down the problem so we can solve it together? How would I approach pair programming with this person?
 
-1. From the VS Code Explorer window, create a New File.
+1. From the VS Code Explorer panel, click the **New File** icon to create a new file..
 
    ![](media/E2-T3.1-S1.png)
 
@@ -315,6 +315,8 @@ So, instead of asking GitHub Copilot to generate a large amount of code at once,
       // for javascript
     ```
 
+    ![](media/)
+
 2. The generated outcome would look similar to the image below.
 
    ![](media/cs10.png)
@@ -325,17 +327,7 @@ So, instead of asking GitHub Copilot to generate a large amount of code at once,
 1. Not only can people benefit from learning from examples, but so can your AI pair programmer. For example, in order to take the names out of the data array below and put them in a
 new array:
 
-   ```
-   const data = [
-   [
-      { name: 'John', age: 25 },
-      { name: 'Jane', age: 30 }
-   ],
-   [
-      { name: 'Bob', age: 40 }
-   ]
-   ];
-   ```
+   ![](media/cs9(1).png)
 
 2. Type the below comment in the chat to generate the output without showing an example to GitHub Copilot.
 
@@ -383,11 +375,11 @@ new array:
 
 10. Finally, from the VS Code terminal, push the code to the repository:
 
-   ```
-   git push
-   ```
+      ```
+      git push
+      ```
 
-   >**Note**: Wait about 60 seconds, then refresh your GitHub repository landing page for the next step.
+      >**Note**: Wait about 60 seconds, then refresh your GitHub repository landing page for the next step.
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - If you receive a success message.
