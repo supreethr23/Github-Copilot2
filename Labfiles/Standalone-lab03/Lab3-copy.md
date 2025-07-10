@@ -142,11 +142,11 @@ In this task, you'll log into GitHub, create a new repository from a template, c
 
       >**Note**: If case pop-up prompt doesn't appear in the browser to open Visual Studio Code, manually launch Visual Studio Code from the desktop and close it. Next, return to the browser, refresh the page, and launch the codespace that was previously created.
 
-18. You will encounter a pop-up prompt. Click **Open** to proceed. 
+18. You will encounter a pop-up prompt. Click on **Open** to proceed. 
 
       ![](media/open.png)
 
-19. Subsequently, another pop-up window will appear within Visual Studio Code (VS Code), where you should select **Open** to continue.
+19. Subsequently, another pop-up window will appear within Visual Studio Code (VS Code) *Allow 'GitHub Codespaces' extension to open this URI*, select **Open** to continue.
 
       ![](media/installextension(1).png)
 
