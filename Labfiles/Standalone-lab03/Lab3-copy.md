@@ -136,7 +136,7 @@ In this task, you'll log into GitHub, create a new repository from a template, c
 
       ![](media/dp3.png)  
 
-17. Click the **Codespaces (1)** tab on the box that pops up and then click the **+ (2)** button.
+17. Click the **Codespaces (1)** tab in the pop-up window and then click the **+ (2)** button.
    
       ![](media/labgitupd.png)
 
