@@ -146,9 +146,6 @@ In this task, you'll log into GitHub, create a new repository from a template, c
 
       ![](media/open.png)
 
-
-      
-
 19. Subsequently, another pop-up window will appear within Visual Studio Code (VS Code), where you should select **Open** to continue.
 
       ![](media/installextension(1).png)
@@ -198,13 +195,13 @@ In this task, you'll log into GitHub, create a new repository from a template, c
 
       ![](media/img3.png)   
     
-24. From the VS Code Explorer window, create a New File.
+24. From the VS Code Explorer window, click on  **New File** icon to create a new file.
 
-      ![](media/savefile.png)
+      ![](media/savefile(1).png)
 
 25. Name the file `skills.js` and verify your new file looks as shown below:
 
-      ![](media/skills-js.png)
+      ![](media/skills-js(1).png)
 
 26. In the `skills.js` file, type the following function header:
 
@@ -216,13 +213,13 @@ In this task, you'll log into GitHub, create a new repository from a template, c
       
       > **Note**: If the suggestions are not visible, close Visual Studio Code and then reopen it. 
 
-      ![](media/skills(1).png)
+      ![](media/skills(1)(1).png)
 
       >**Note:** Suggestions may not be exactly as shown in the picture, but they could be similar.
 
 27. Press `Tab` to accept the suggestion and then press `Ctrl + S` to save the file.
 
-      ![](media/skills(1).png)
+      ![](media/skills(1)(1).png)
 
 ### Task 2: Push code to your repository from the codespace
 
@@ -230,7 +227,7 @@ In this task, you will use the VS Code terminal to add the `skills.js` file to t
 
 1. Open VS Code Terminal by clicking on **Ellipsis (...)** **(1)**, select **Terminal** **(2)** and click on **New Terminal** **(3)**.
 
-   ![](media/open-terminal.png)
+   ![](media/open-terminal(1).png)
 
 2. Run the below command to add the `skills.js` file to the GitHub repository.
 
@@ -280,11 +277,11 @@ When prompting GitHub Copilot, think of the process as having a conversation wit
 
 1. From the VS Code Explorer panel, click the **New File** icon to create a new file..
 
-   ![](media/E2-T3.1-S1.png)
+   ![](media/E2-T3.1-S1(1).png)
 
 2. Name the file `index.js` and verify your new file looks as shown below:
 
-   ![](media/E2-T3.1-S2.png)
+   ![](media/E2-T3.1-S2(1).png)
 
 3. Now press `Ctrl + I` to open the GitHub Copilot Chat and paste the following **comments (1)** to create a basic markdown editor and click on the **Send and Dispatch (Enter) (2)** button.
 
@@ -299,11 +296,11 @@ When prompting GitHub Copilot, think of the process as having a conversation wit
    - The markdown text and resulting HTML should be saved in the component's state and updated in real-time 
    ```
 
-   ![](media/ex2-markdownupd.png)
+   ![](media/ex2-markdownupd(1).png)
 
 4. This will prompt GitHub Copilot to generate the following code in the image and produce a very simple, unstyled, but functional markdown editor. Now you can clear the contents of the index.js file by clicking on **Accept**, then **Ctrl + A**, and delete. Now you can proceed with the next tasks.
 
-   ![](media/skillsupd.png)
+   ![](media/skillsupd(1).png)
 
    >**Note:** Suggestions may not be exactly as shown in the picture, but they could be similar.
 
