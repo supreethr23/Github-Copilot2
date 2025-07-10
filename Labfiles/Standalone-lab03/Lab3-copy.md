@@ -254,7 +254,7 @@ In this task, you will use the VS Code terminal to add the `skills.js` file to t
 
 ### Task 3: Best practices to use GitHub Copilot
 
->**Note**: Verify GitHub Copilot Chat extension in VS Code.
+>**Note**: Verify GitHub Copilot Chat extension is installed in VS Code.
 
 1. To confirm that the GitHub Copilot Chat extension is installed, follow the steps below in Visual Studio Code:
 
