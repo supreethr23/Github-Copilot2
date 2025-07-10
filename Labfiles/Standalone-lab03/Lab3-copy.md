@@ -93,7 +93,7 @@ In this task, you'll log into GitHub, create a new repository from a template, c
 
      ![](media/cs5.png)
 
-12. Navigate back to the home page of your repository, click on **Creating a new file** under Quick setup.
+12. Navigate back to the home page of your repository, click on **creating a new file** under Quick setup.
 
     ![](media/Exercise1-task1-1(1).png)
 
