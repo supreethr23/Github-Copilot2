@@ -265,7 +265,7 @@ In this task, you will use the VS Code terminal to add the `skills.js` file to t
 
       ![](media/ghc-chat-extension.png)
 
-1. Once the installation is complete, at the top beside the search bar, you will be able to see the **icon (1)** for GitHub Copilot Chat as shown below. Also, to open the chat, click on **Open chat (2)**.
+1. After the installation finishes, you'll see the **GitHub Copilot Chat icon (1)** next to the search bar at the top. To open the chat, click ***Open Chat (2)** as shown below.
 
    ![](media/cs6(1).png)
 
@@ -283,7 +283,7 @@ When prompting GitHub Copilot, think of the process as having a conversation wit
 
    ![](media/E2-T3.1-S2(1).png)
 
-3. Now press `Ctrl + I` to open the GitHub Copilot Chat and paste the following **comments (1)** to create a basic markdown editor and click on the **Send and Dispatch (Enter) (2)** button.
+3. Now, press **Ctrl + I** to open the GitHub Copilot Chat and paste the following **comments (1)** to create a basic markdown editor and click on the **Send and Dispatch (Enter) (2)** button.
 
    ```
    Create a basic markdown editor in index.js with the following features:
@@ -298,7 +298,7 @@ When prompting GitHub Copilot, think of the process as having a conversation wit
 
    ![](media/ex2-markdownupd(1).png)
 
-4. This will prompt GitHub Copilot to generate the following code in the image and produce a very simple, unstyled, but functional markdown editor. Now you can clear the contents of the index.js file by clicking on **Accept**, then **Ctrl + A**, and delete. Now you can proceed with the next tasks.
+4. This will prompt GitHub Copilot to generate the following code in the image and produce a very simple, unstyled, but functional markdown editor. Now you can clear the contents of the index.js file by clicking on **Accept**, then press **Ctrl + A**, and press **Delete**.
 
    ![](media/skillsupd(1).png)
 
@@ -310,7 +310,7 @@ When prompting GitHub Copilot, think of the process as having a conversation wit
 After you've explained your primary objective to the AI pair programmer, explain the reasoning and procedures it must take to reach that objective. This will help GitHub Copilot gain a clearer understanding of your intended outcome when you break things down. For example, imagine you’re writing a recipe. Rather than writing a paragraph outlining the food you intend to make, you would break down the cooking procedure into distinct parts.
 So, instead of asking GitHub Copilot to generate a large amount of code at once, let it generate the code after each step.
 
-1. At the top, beside the search bar, click on the **Github Copilot icon** and then open a new chat, enter the below step-by-step instructions for reversing a sentence.
+1. At the top, beside the search bar, click on the **Github Copilot icon** and then open a new chat, enter the below step-by-step instructions for reversing a sentence
 
     ```
       // take a sentence as input
@@ -319,9 +319,7 @@ So, instead of asking GitHub Copilot to generate a large amount of code at once,
       // for javascript
     ```
 
-    ![](media/)
-
-2. The generated outcome would look similar to the image below.
+2. The output should resemble the image shown below:
 
    ![](media/cs10(1).png)
 
@@ -339,7 +337,7 @@ So, instead of asking GitHub Copilot to generate a large amount of code at once,
     // As an illustration, pull names out of the data array  
    ```
 
-3. It generated an incorrect usage of the map.
+3. It has produced an incorrect implementation of the `map` function.
 
    ![](media/cs9.1.png)
 
