@@ -247,7 +247,7 @@ In this task, you will use the VS Code terminal to add the `skills.js` file to t
    git push
    ```
 
-   ![](media/gitpush.png)
+   ![](media/gitpush(1).png)
 
    >**Note**: Wait about 60 seconds, then refresh your GitHub repository landing page for the next step.
 
