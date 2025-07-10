@@ -73,7 +73,7 @@ In this task, you'll log into GitHub, create a new repository from a template, c
       
       ![](media/forkrepo-01(1).png)
 
-    - Then click **Create repository** **(3)** to continue
+    - Then click **Create repository** **(3)** to continue.
 
       ![](media/forkrepo-02.png)
 
@@ -177,17 +177,17 @@ In this task, you'll log into GitHub, create a new repository from a template, c
       ![](media/verify-copilot.png)
 
       >**Note**: If the GitHub Copilot extension is not installed, click on Install.
-      > - If prompted to **Sign In** click on **Sign In** to authorize with your github account. You will see one of the available options as shown in the screenshot below.
+      > - If prompted to **Sign In** click on **Sign In** to authorize with your github account. You will see one of the available options as shown in the screenshot below:
    
       ![](media/img0.png)
 
       ![](media/copilotlogin.png)
 
-      > - Next, once you get the popup, click on **Allow.**
+      > - Next, once you get the popup, click on **Allow**.
       
       ![](media/img1.png)
 
-      > - On the select user to authorize page in the Edge browser, click on **Continue**
+      > - On the select user to authorize page in the Edge browser, click on **Continue**.
 
       ![](media/img2.png)
 
@@ -265,7 +265,7 @@ In this task, you will use the VS Code terminal to add the `skills.js` file to t
 
       ![](media/ghc-chat-extension.png)
 
-1. Once the installation is complete, at the top beside the search bar, you will be able to see the **icon (1)** for GitHub Copilot Chat as shown below. Also, to open the chat, click on **Open chat (2)**
+1. Once the installation is complete, at the top beside the search bar, you will be able to see the **icon (1)** for GitHub Copilot Chat as shown below. Also, to open the chat, click on **Open chat (2)**.
 
    ![](media/cs6(1).png)
 
@@ -275,7 +275,7 @@ This is most helpful if you have a blank file or an empty codebase. In other wor
 
 When prompting GitHub Copilot, think of the process as having a conversation with someone: How should I break down the problem so we can solve it together? How would I approach pair programming with this person?
 
-1. From the VS Code Explorer panel, click the **New File** icon to create a new file..
+1. From the VS Code Explorer panel, click the **New File** icon to create a new file.
 
    ![](media/E2-T3.1-S1(1).png)
 
@@ -328,8 +328,7 @@ So, instead of asking GitHub Copilot to generate a large amount of code at once,
 
 ### Task 3.3- Example: Give GitHub Copilot an example or two
 
-1. Not only can people benefit from learning from examples, but so can your AI pair programmer. For example, in order to take the names out of the data array below and put them in a
-new array:
+1. Not only can people benefit from learning from examples, but so can your AI pair programmer. For example, in order to take the names out of the data array below and put them in a new array:
 
    ![](media/cs9(1).png)
 
@@ -371,13 +370,13 @@ new array:
    git add index.js
    ```
 
-9. Next, from the VS Code terminal, commit the changes to the repository:
+9. Next, from the VS Code terminal, commit the changes to the repository.
 
    ```
    git commit -m "Copilot commit"
    ```
 
-10. Finally, from the VS Code terminal, push the code to the repository:
+10. Finally, from the VS Code terminal, push the code to the repository.
 
       ```
       git push
