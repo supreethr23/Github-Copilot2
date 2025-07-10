@@ -354,6 +354,8 @@ So, instead of asking GitHub Copilot to generate a large amount of code at once,
 
    ![](media/cs9.png)
 
+   >**Note:** Ensure only the intended outcome is present. Remove any unnecessary content.
+   
    >**Note:** Suggestions may not be exactly as shown in the picture, but they could be similar.
 
 6. Open the **New Terminal** to push the code.
