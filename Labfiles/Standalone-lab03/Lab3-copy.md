@@ -195,7 +195,7 @@ In this task, you'll log into GitHub, create a new repository from a template, c
 
       ![](media/img3.png)   
     
-24. From the VS Code Explorer window, click on  **New File** icon to create a new file.
+24. From the VS Code Explorer window, click on  the **New File** icon to create a new file.
 
       ![](media/savefile(1).png)
 
@@ -235,13 +235,13 @@ In this task, you will use the VS Code terminal to add the `skills.js` file to t
    git add skills.js
    ```
 
-3. Next, from the VS Code terminal stage, commit the changes to the repository:
+3. Next, from the VS Code terminal stage, commit the changes to the repository.
 
    ```
    git commit -m "Copilot first commit"
    ```
 
-4. Finally, from the VS Code terminal, push the code to the repository:
+4. Finally, from the VS Code terminal, push the code to the repository.
 
    ```
    git push
@@ -254,7 +254,7 @@ In this task, you will use the VS Code terminal to add the `skills.js` file to t
 
 ### Task 3: Best practices to use GitHub Copilot
 
->**Note :** Verify GitHub Copilot Chat extension in VS Code.
+>**Note**: Verify GitHub Copilot Chat extension in VS Code.
 
 1. To confirm that the GitHub Copilot Chat extension is installed, follow the steps below in Visual Studio Code:
 
@@ -265,7 +265,7 @@ In this task, you will use the VS Code terminal to add the `skills.js` file to t
 
       ![](media/ghc-chat-extension.png)
 
-1. Once the installation is complete, at the top beside the search bar, you will be able to see the **icon (1)** for GitHub Copilot Chat as shown below. Also, to open the cha,t click on **Open chat (2)**
+1. Once the installation is complete, at the top beside the search bar, you will be able to see the **icon (1)** for GitHub Copilot Chat as shown below. Also, to open the chat, click on **Open chat (2)**
 
    ![](media/cs6(1).png)
 
@@ -310,7 +310,7 @@ When prompting GitHub Copilot, think of the process as having a conversation wit
 After you've explained your primary objective to the AI pair programmer, explain the reasoning and procedures it must take to reach that objective. This will help GitHub Copilot gain a clearer understanding of your intended outcome when you break things down. For example, imagine you’re writing a recipe. Rather than writing a paragraph outlining the food you intend to make, you would break down the cooking procedure into distinct parts.
 So, instead of asking GitHub Copilot to generate a large amount of code at once, let it generate the code after each step.
 
-1. At the top, beside the search bar, click on the **Github copilot icon** and then open a new chat, enter the below step-by-step instructions for reversing a sentence.
+1. At the top, beside the search bar, click on the **Github Copilot icon** and then open a new chat, enter the below step-by-step instructions for reversing a sentence.
 
     ```
       // take a sentence as input
