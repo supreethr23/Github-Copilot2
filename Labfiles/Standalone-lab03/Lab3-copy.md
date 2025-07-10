@@ -37,16 +37,16 @@ In this task, you'll log into GitHub, create a new repository from a template, c
 
    ![](media/continue(1).png)
 
-5. On the **Sign in** page, enter the following and select **Sign in**. You will be logged into the GitHub Admin page.
+5. On the **Sign in** page, enter the following credentials and select **Sign in**. You will be logged into the GitHub Admin page.
 
     - **Email**: <inject key="AzureAdUserEmail"></inject>
     - **Password**: <inject key="AzureAdUserPassword"></inject>
 
-        >**Note:** If the **Stay signed in?** pop-ups, select **No**.
+        >**Note:** First-time users are often prompted to Stay Signed In. If you see any such pop-up, click on **No**.
    
         ![](media/githubpage.png)
 
-6. Click on the Copy link button, then open a new tab in the Edge browser inside the LabVM. Paste the link into the address bar and press Enter. Make sure you're logged into GitHub, as done in the previous steps.
+6. Copy the link below, then open a new tab in the Edge browser inside the LabVM. Paste the link into the address bar and press Enter. Make sure you're logged into GitHub, as done in the previous steps.
 
    <!-- For the start course, run in JavaScript:
    'https://github.com/new?' + new URLSearchParams({
@@ -63,7 +63,7 @@ In this task, you'll log into GitHub, create a new repository from a template, c
    https://github.com/new?template_owner=skills&template_name=copilot-codespaces-vscode&owner=%40me&name=skills-copilot-codespaces-vscode&description=My+clone+repository&visibility=public
    ```
  
-7. In the new tab, most fields will be pre-filled. Just update the **Owner** to **Cloudlabs-Enterprises** **(1)**, change the **Repository name** **(2)** as provided below to make it unique.
+7. On the Create a new repository page, most fields will be pre-filled. Just update the **Owner** to **Cloudlabs-Enterprises** **(1)** and change the **Repository name** **(2)** as provided below to make it unique.
 
     - Enter your Repository name as:
     
@@ -73,19 +73,19 @@ In this task, you'll log into GitHub, create a new repository from a template, c
       
       ![](media/forkrepo-01(1).png)
 
-    - Then click **Create repository** **(3)** to continue.
+    - Click on **Create repository** **(3)** to continue.
 
       ![](media/forkrepo-02.png)
 
-8. After your new repository is created, wait about 20 seconds and then refresh the page; you will be redirected to the main page of the **skills-copilot-codespaces-vscode-<inject key="Deployment-id" enableCopy="false"/>**  repository.
+8. Once the new repository is created, wait for approximately 20 seconds and then refresh the page; you will be redirected to the main page of the **skills-copilot-codespaces-vscode-<inject key="Deployment-id" enableCopy="false"/>**  repository.
 
       ![](media/skills-copilot-codespace-repo.png)
 
-9. Once the repository is created, click on your profile picture and then select **Your organizations**.
+9. Click on your profile picture from the top right corner and select **Your organizations**.
 
       ![](media/cs3(1).png)
 
-10. In "Your organization", from the left navigation pane, select **Codespaces** under *Code, planning and automation*.
+10. From the left navigation pane, select **Codespaces** under **Code, planning and automation**.
 
       ![](media/cs4.png)
 
@@ -130,7 +130,7 @@ In this task, you'll log into GitHub, create a new repository from a template, c
 
       ![](media/Exercise1-task1-3.png)
 
-16. Navigate back to your repository, click on the **Code** **(1)** tab located at the top left of the screen. Click the **Code** **(2)** button located in the middle of the page.
+16. Navigate back to your repository, click on the **Code** **(1)** tab located at the top left of the screen. After that, click on the **Code** **(2)** button located in the middle of the page.
 
       > **Note**: If you don't see the "Create Codespace" button, it likely means your repository wasn't created under the **Cloudlabs-enterprises** organization. To fix this, either delete your current repository and recreate it under the specified organization, or fork the existing repository into **Cloudlabs-enterprises** Org.
 
@@ -138,33 +138,33 @@ In this task, you'll log into GitHub, create a new repository from a template, c
 
 17. Click the **Codespaces (1)** tab in the pop-up window and then click the **+ (2)** button.
    
-      ![](media/labgitupd.png)
+      ![](media/labgitupd(1).png)
 
-      >**Note**: If case pop-up prompt doesn't appear in the browser to open Visual Studio Code, manually launch Visual Studio Code from the desktop and close it. Next, return to the browser, refresh the page, and launch the codespace that was previously created.
+      >**Note:** If case pop-up prompt doesn't appear in the browser to open Visual Studio Code, manually launch Visual Studio Code from the desktop and close it. Next, return to the browser, refresh the page, and launch the codespace that was previously created.
 
 18. You will encounter a pop-up prompt. Click on **Open** to proceed. 
 
       ![](media/open.png)
 
-19. Subsequently, another pop-up window will appear within Visual Studio Code (VS Code) *Allow 'GitHub Codespaces' extension to open this URI*, select **Open** to continue.
+19. Subsequently, another pop-up window will appear within Visual Studio Code (VS Code) **Allow 'GitHub Codespaces' extension to open this URI**, select **Open** to continue.
 
       ![](media/installextension(1).png)
 
-20. Next, in the *The extension 'GitHub Codespaces' wants to sign in using GitHub*, popup, click on **Allow**.
+20. When prompted, click **Allow** to let the GitHub Codespaces extension sign in using your GitHub account.
 
       ![](media/allow1.png)
 
-      >**Note**: Wait about 2 minutes for the codespace to spin itself up.
+      >**Note:** It may take up to 2 minutes for the Codespace to launch.
 
-21. In the *Select user to authorize Visual Studio Code* tab, click on **Continue**.
+21. Click on **Continue** to authorize Visual Studio Code with the signed-in account.
 
       ![](media/authorize(1).png)
 
-22. Click **Authorize Visual-Studio-Code** once the Authorize Visual Studio Code tab appears in the browser.
+22. Click on **Authorize Visual-Studio-Code** to grant access.
 
       ![](media/authorize(2).png)
 
-23. A new tab in the browser will open, with a pop-up *This site is trying to open Visual Studio Code.*, click on **Open**.
+23. Click on **Open** to launch Visual Studio Code and complete the authorization process.
 
       ![](media/authorize(3).png)
 
@@ -176,30 +176,30 @@ In this task, you'll log into GitHub, create a new repository from a template, c
 
       ![](media/verify-copilot.png)
 
-      >**Note**: If the GitHub Copilot extension is not installed, click on Install.
-      > - If prompted to **Sign In** click on **Sign In** to authorize with your github account. You will see one of the available options as shown in the screenshot below:
+      >**Note:** If the GitHub Copilot extension is not installed, click on Install.
+      > - Click on **Sign in** to GitHub in the notification popup to activate GitHub Copilot in Visual Studio Code.
    
       ![](media/img0.png)
 
       ![](media/copilotlogin.png)
 
-      > - Next, once you get the popup, click on **Allow**.
+      > - Click **Allow** to let the GitHub Copilot extension sign in using your GitHub account.
       
       ![](media/img1.png)
 
-      > - On the select user to authorize page in the Edge browser, click on **Continue**.
+      > - Click on **Continue** to authorize Visual Studio Code with the signed-in GitHub account.
 
       ![](media/img2.png)
 
-      > - You will encounter a pop-up prompt. Click **Open** to proceed.
+      > - Click on **Open** to return to Visual Studio Code and complete the sign-in process.
 
       ![](media/img3.png)   
     
-24. From the VS Code Explorer window, click on  the **New File** icon to create a new file.
+24. Click the **New File** icon in the Explorer panel to create a new file in your workspace.
 
       ![](media/savefile(1).png)
 
-25. Name the file `skills.js` and verify your new file looks as shown below:
+25. Name the file `skills.js` and make sure it appears as shown below.
 
       ![](media/skills-js(1).png)
 
@@ -209,15 +209,15 @@ In this task, you'll log into GitHub, create a new repository from a template, c
       function calculateNumbers(var1, var2)
       ```
       
-      > **Note**: A whole function body will be automatically suggested by GitHub Copilot in gray text. Here's an example of what you are likely to see; however, the precise recommendation could vary. If you do not see a code recommendation, try adding a space after the code. 
+      > **Note:** A whole function body will be automatically suggested by GitHub Copilot in gray text. Here's an example of what you are likely to see; however, the precise recommendation could vary. If you do not see a code recommendation, try adding a space after the code. 
       
-      > **Note**: If the suggestions are not visible, close Visual Studio Code and then reopen it. 
+      > **Note:** If the suggestions are not visible, close Visual Studio Code and then reopen it. 
 
       ![](media/skills(1)(1).png)
 
       >**Note:** Suggestions may not be exactly as shown in the picture, but they could be similar.
 
-27. Press `Tab` to accept the suggestion and then press `Ctrl + S` to save the file.
+27. Press `Tab` to accept the suggestions and then press `Ctrl + S` to save the file.
 
       ![](media/skills(1)(1).png)
 

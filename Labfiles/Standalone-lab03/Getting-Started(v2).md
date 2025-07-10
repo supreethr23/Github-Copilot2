@@ -1,6 +1,6 @@
 # Getting Started with Your Code Suggestions with GitHub Copilot in Codespaces using VS Code
 
-## Overall Estimated Duration: 60 minutes
+## Overall Estimated Duration: 60 Minutes
 
 ## Overview
 
@@ -63,9 +63,15 @@ For convenience, you can open the lab guide in a separate window by selecting th
  
 ## Managing Your Virtual Machine
  
-Feel free to start, restart, or stop your virtual machine as needed from the **Resources** tab accordingly. Your experience is in your hands!
+Feel free to **Start, Restart, or Stop** your virtual machine as needed from the **Resources** tab accordingly. Your experience is in your hands!
  
 ![Manage Your Virtual Machine](media/resa(1).png)
+
+## Lab Guide Zoom In/Zoom Out
+
+To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment.
+
+![](media/zoom(1).png)
  
 ## Support Contact
 
