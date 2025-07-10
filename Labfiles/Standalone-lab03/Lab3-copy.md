@@ -177,7 +177,7 @@ In this task, you'll log into GitHub, create a new repository from a template, c
       ![](media/verify-copilot.png)
 
       >**Note:** If the GitHub Copilot extension is not installed, click on Install.
-      > - Click on **Signed Out** at the bottom of the page, then select **Sign in to use Copilot**. When the notification popup appears, click **Sign in** to activate GitHub Copilot in Visual Studio Code for free.
+      > - Click on **Signed Out** at the bottom of the page, then select **Sign in to use Copilot**. When the notification pop-up appears, click **Sign in** to activate GitHub Copilot in Visual Studio Code for free.
    
       ![](media/copilotlogin(1).png)
 
@@ -249,7 +249,7 @@ In this task, you will use the VS Code terminal to add the `skills.js` file to t
 
    ![](media/gitpush(1).png)
 
-   >**Note**: Wait about 60 seconds, then refresh your GitHub repository landing page for the next step.
+   >**Note**: Wait for about 60 seconds, then refresh your GitHub repository landing page for the next step.
 
 
 ### Task 3: Best practices to use GitHub Copilot
@@ -265,7 +265,7 @@ In this task, you will use the VS Code terminal to add the `skills.js` file to t
 
       ![](media/ghc-chat-extension.png)
 
-1. After the installation finishes, you'll see the **GitHub Copilot Chat icon (1)** next to the search bar at the top. To open the chat, click ***Open Chat (2)** as shown below.
+1. After the installation finishes, you'll see the **GitHub Copilot Chat icon (1)** next to the search bar at the top. To open the chat, click **Open Chat (2)** as shown below.
 
    ![](media/cs6(1).png)
 
@@ -298,7 +298,7 @@ When prompting GitHub Copilot, think of the process as having a conversation wit
 
    ![](media/ex2-markdownupd(1).png)
 
-4. This will prompt GitHub Copilot to generate the following code in the image and produce a very simple, unstyled, but functional markdown editor. Now you can clear the contents of the index.js file by clicking on **Accept**, then press **Ctrl + A**, and press **Delete**.
+4. This will prompt GitHub Copilot to generate the following code in the image and produce a very simple, unstyled, but functional markdown editor. Now you can clear the contents of the `index.js` file by clicking on **Accept**, then pressing **Ctrl + A**, followed by **Delete**.
 
    ![](media/skillsupd(1).png)
 
@@ -327,7 +327,7 @@ So, instead of asking GitHub Copilot to generate a large amount of code at once,
 
 ### Task 3.3- Example: Give GitHub Copilot an example or two
 
-1. Not only can people benefit from learning from examples, but so can your AI pair programmer. For example, in order to take the names out of the data array below and put them in a new array:
+1. Not only can people benefit from learning from examples, but so can your AI pair programmer. For example, to take the names out of the data array below and put them in a new array:
 
    ![](media/cs9(1).png)
 
