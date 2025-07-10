@@ -177,15 +177,15 @@ In this task, you'll log into GitHub, create a new repository from a template, c
       ![](media/verify-copilot.png)
 
       >**Note:** If the GitHub Copilot extension is not installed, click on Install.
-      > - Click on **Sign in** to GitHub in the notification popup to activate GitHub Copilot in Visual Studio Code.
+      > - Click **Signed Out** at the bottom of the page, then select **Sign in to use Copilot**. When the notification popup appears, click **Sign in** to activate GitHub Copilot in Visual Studio Code for free.
    
-      ![](media/img0.png)
+      ![](media/copilotlogin(1).png)
 
-      ![](media/copilotlogin.png)
+      ![](media/copilotlogin(2).png)
 
       > - Click **Allow** to let the GitHub Copilot extension sign in using your GitHub account.
       
-      ![](media/img1.png)
+      ![](media/copilotlogin(3).png)
 
       > - Click on **Continue** to authorize Visual Studio Code with the signed-in GitHub account.
 
@@ -323,8 +323,9 @@ So, instead of asking GitHub Copilot to generate a large amount of code at once,
 
 2. The generated outcome would look similar to the image below.
 
-   ![](media/cs10.png)
+   ![](media/cs10(1).png)
 
+   >**Note:** Press **Ctrl + A** to select all the code in the file, then press **Delete** to remove it before proceeding to the next task.
 
 ### Task 3.3- Example: Give GitHub Copilot an example or two
 
@@ -342,6 +343,10 @@ So, instead of asking GitHub Copilot to generate a large amount of code at once,
 
    ![](media/cs9.1.png)
 
+4. Click on **Undo** at the bottom to remove the suggested code from `index.js`.
+
+   ![](media/cs9.2.png)
+
 4. By contrast, type the following comments to provide an example of how to generate the desired output.
 
     ```
@@ -350,11 +355,9 @@ So, instead of asking GitHub Copilot to generate a large amount of code at once,
       // Desired outcome: ['John', 'Jane', 'Bob']    
     ```
 
-5. Now, we have received our desired outcome. You can copy the desired outcome suggested by Copilot, paste it in **index.js**, and then **Ctrl + S** to save the file.
+5. The desired outcome is now visible. To keep the Copilot suggestion in `index.js`, click on **Keep** at the bottom, then press **Ctrl + S** to save the file.
 
-   ![](media/cs9.png)
-
-   >**Note:** Ensure only the intended outcome is present. Remove any unnecessary content.
+   ![](media/cs9.3.png)
    
    >**Note:** Suggestions may not be exactly as shown in the picture, but they could be similar.
 
