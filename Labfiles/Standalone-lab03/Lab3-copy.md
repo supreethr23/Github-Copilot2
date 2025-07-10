@@ -203,7 +203,7 @@ In this task, you'll log into GitHub, create a new repository from a template, c
 
       ![](media/skills-js(1).png)
 
-26. In the `skills.js` file, type the following function header:
+26. In the `skills.js` file, type or paste the following function header:
 
       ```
       function calculateNumbers(var1, var2)
