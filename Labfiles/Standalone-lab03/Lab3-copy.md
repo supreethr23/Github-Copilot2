@@ -177,13 +177,13 @@ In this task, you'll log into GitHub, create a new repository from a template, c
       ![](media/verify-copilot.png)
 
       >**Note:** If the GitHub Copilot extension is not installed, click on Install.
-      > - Click **Signed Out** at the bottom of the page, then select **Sign in to use Copilot**. When the notification popup appears, click **Sign in** to activate GitHub Copilot in Visual Studio Code for free.
+      > - Click on **Signed Out** at the bottom of the page, then select **Sign in to use Copilot**. When the notification popup appears, click **Sign in** to activate GitHub Copilot in Visual Studio Code for free.
    
       ![](media/copilotlogin(1).png)
 
       ![](media/copilotlogin(2).png)
 
-      > - Click **Allow** to let the GitHub Copilot extension sign in using your GitHub account.
+      > - Click on **Allow** to let the GitHub Copilot Chat extension sign in using your GitHub account.
       
       ![](media/copilotlogin(3).png)
 
