@@ -77,7 +77,7 @@ In this task, you'll log into GitHub, create a new repository from a template, c
 
       ![](media/forkrepo-02.png)
 
-8. Once the new repository is created, wait for approximately 20 seconds and then refresh the page; you will be redirected to the main page of the **skills-copilot-codespaces-vscode-<inject key="Deployment-id" enableCopy="false"/>**  repository.
+8. Once the new repository is created, wait for about 20 seconds, then refresh the page; you will be redirected to the main page of the **skills-copilot-codespaces-vscode-<inject key="Deployment-id" enableCopy="false"/>**  repository.
 
       ![](media/skills-copilot-codespace-repo.png)
 
