@@ -20,7 +20,7 @@ In this lab, you will complete the following tasks:
 
 In this task, you'll log into GitHub, create a new repository from a template, configure the development environment using a `.devcontainer` file, and launch a Codespace in Visual Studio Code. Once inside the Codespace, you'll confirm that GitHub Copilot is installed and working by writing a simple JavaScript function and letting Copilot suggest the function body.
 
-1. In the LABVM desktop, double-click on **Microsoft Edge**.
+1. In the **LABVM** desktop, double-click on **Microsoft Edge**.
 
    ![](media/Cs-1.png)
 
@@ -29,7 +29,7 @@ In this task, you'll log into GitHub, create a new repository from a template, c
    https://github.com/login
    ```
    
-3. On the **Sign in to GitHub** tab, you will see the login screen. In that screen, enter the following **Username: <inject key="GitHub User Name" enableCopy="true"/>** Then click on **Sign in with your identity provider** **(2)**. 
+3. On the **Sign in to GitHub** tab, you will see the login screen. In that screen, enter the following **Username: <inject key="GitHub User Name" enableCopy="true"/>** and then click on **Sign in with your identity provider** **(2)**. 
    
    ![](media/githublogin.png)
           
