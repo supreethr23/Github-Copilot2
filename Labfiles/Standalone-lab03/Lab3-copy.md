@@ -85,11 +85,11 @@ In this task, you'll log into GitHub, create a new repository from a template, c
 
       ![](media/cs3(1).png)
 
-10. In "Your organization", from the left navigation pane, select **Codespaces** under *Code, planning and automation*
+10. In "Your organization", from the left navigation pane, select **Codespaces** under *Code, planning and automation*.
 
       ![](media/cs4.png)
 
-11. Scroll down and make sure, **Visual Studio Code** is selected, under the **Editor preference** .
+11. Scroll down and make sure, **Visual Studio Code** is selected, under the **Editor preference**.
 
      ![](media/cs5.png)
 
@@ -103,7 +103,7 @@ In this task, you'll log into GitHub, create a new repository from a template, c
       .devcontainer/devcontainer.json
       ```
 
-14. In the body of the new **.devcontainer/devcontainer.json** file, add the following content **(2)** and click on **Commit changes** **(3)**:
+14. In the body of the new **.devcontainer/devcontainer.json** file, add the following content **(2)** and click on **Commit changes** **(3)**.
 
       ```
       {
@@ -142,33 +142,40 @@ In this task, you'll log into GitHub, create a new repository from a template, c
 
       >**Note**: If case pop-up prompt doesn't appear in the browser to open Visual Studio Code, manually launch Visual Studio Code from the desktop and close it. Next, return to the browser, refresh the page, and launch the codespace that was previously created.
 
-18. You will encounter a pop-up prompt. Click **Open** to proceed. Subsequently, another pop-up window will appear within Visual Studio Code (VS Code), where you should once again select **Install Extension and Open URI** to continue.
+18. You will encounter a pop-up prompt. Click **Open** to proceed. 
 
       ![](media/open.png)
 
-      >**Note:** If you did not receive a pop-up prompt to open Visual Studio Code, **manually launch Visual Studio Code** from your VM and **refresh** the page. This should trigger the pop-up.
 
-      ![](media/installectension.png)
+      
 
-19. At the bottom right corner, you will get a prompt to sign in to GitHub.
+19. Subsequently, another pop-up window will appear within Visual Studio Code (VS Code), where you should select **Open** to continue.
 
-      ![](media/signingit.png)
+      ![](media/installextension(1).png)
 
-      >**Note:** If you do not get the sign-in prompt within Visual Studio Code, click on **Allow** in the pop-up that appears, which will open a window in the browser, refresh the screen and click on **Open** in the pop-up that appears.
-
-20. Next, once you get the popup, click on **Allow**
+20. Next, in the *The extension 'GitHub Codespaces' wants to sign in using GitHub*, popup, click on **Allow**.
 
       ![](media/allow1.png)
 
       >**Note**: Wait about 2 minutes for the codespace to spin itself up.
 
-21. Click **Authorize Visual-Studio-Code** once the Authorize GitHub for VS Code tab appears in the browser.
+21. In the *Select user to authorize Visual Studio Code* tab, click on **Continue**.
 
-22. Verify your codespace is running. Make sure the VS Code looks as shown below:
+      ![](media/authorize(1).png)
 
-      ![](media/skillscodespaces.png)
+22. Click **Authorize Visual-Studio-Code** once the Authorize Visual Studio Code tab appears in the browser.
 
-23. Click on **Extensions** **(1)** from the left menu, and the **GitHub Copilot** **(2)** extension should show up in the VS Code extension list. Click the Copilot extension and verify its installation as shown below:
+      ![](media/authorize(2).png)
+
+23. A new tab in the browser will open, with a pop-up *This site is trying to open Visual Studio Code.*, click on **Open**.
+
+      ![](media/authorize(3).png)
+
+24. Verify your codespace is running. Make sure the VS Code looks as shown below:
+
+      ![](media/skillscodespaces(1).png)
+
+25. Click on **Extensions** **(1)** from the left menu, and the **GitHub Copilot** **(2)** extension should show up in the VS Code extension list. Click the Copilot extension and verify its installation as shown below:
 
       ![](media/verify-copilot.png)
 
